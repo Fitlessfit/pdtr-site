@@ -6226,6 +6226,22 @@
     .burger-menu {
         display: flex;
     }
+    
+    .header__content-nav {
+        display: none !important;
+    }
+    
+    .header__content-button:not(.mobile-adaptive-tel):not(.header__content-button-tel) {
+        display: none !important;
+    }
+    
+    .header__content-button-tel {
+        display: none !important;
+    }
+    
+    .mobile-adaptive-tel {
+        display: flex !important;
+    }
 }
 
 /* Fix title text wrapping on mobile */
