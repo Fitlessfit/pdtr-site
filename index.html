@@ -190,10 +190,37 @@
                                         <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
                                     </svg>
                                 </span>
-                            </button>                            
+                            </button>
+
+                            <!-- Burger Menu Button -->
+                            <button class="burger-menu" type="button" onclick="toggleMobileMenu()" aria-label="Открыть меню">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
                         </div>
                     </div>
                 </header>
+
+                <!-- Mobile Menu Overlay -->
+                <div class="mobile-menu-overlay" id="mobileMenu">
+                    <div class="mobile-menu-content">
+                        <button class="mobile-menu-close" onclick="toggleMobileMenu()" aria-label="Закрыть меню">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M18,6h0a1,1,0,0,0-1.414,0L12,10.586,7.414,6A1,1,0,0,0,6,6H6A1,1,0,0,0,6,7.414L10.586,12,6,16.586A1,1,0,0,0,6,18H6a1,1,0,0,0,1.414,0L12,13.414,16.586,18A1,1,0,0,0,18,18h0a1,1,0,0,0,0-1.414L13.414,12,18,7.414A1,1,0,0,0,18,6Z"/>
+                            </svg>
+                        </button>
+                        <nav class="mobile-menu-nav">
+                            <a href="#about" class="mobile-nav-link" onclick="toggleMobileMenu()">О боли</a>
+                            <a href="#method" class="mobile-nav-link" onclick="toggleMobileMenu()">Как проходит прием</a>
+                            <a href="#requests" class="mobile-nav-link" onclick="toggleMobileMenu()">Запросы</a>
+                            <a href="#services" class="mobile-nav-link" onclick="toggleMobileMenu()">Услуги</a>
+                            <a href="#faq" class="mobile-nav-link" onclick="toggleMobileMenu()">FAQ</a>
+                            <a href="#reviews" class="mobile-nav-link" onclick="toggleMobileMenu()">Отзывы</a>
+                            <a href="#contacts" class="mobile-nav-link" onclick="toggleMobileMenu()">Контакты</a>
+                        </nav>
+                    </div>
+                </div>
 
                 <div class="hero">
                     <div class="hero__content">

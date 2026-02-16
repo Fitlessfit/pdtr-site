@@ -6221,3 +6221,40 @@
         margin-bottom: 22px;
     }
 }
+/* Show burger menu on screens where navigation is hidden */
+@media (max-width: 1099px) {
+    .burger-menu {
+        display: flex;
+    }
+}
+
+/* Fix title text wrapping on mobile */
+@media (max-width: 699px) {
+    .hero__title {
+        font-size: 38px !important;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+}
+
+@media (max-width: 499px) {
+    .hero__title {
+        font-size: 32px !important;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 399px) {
+    .hero__title {
+        font-size: 28px !important;
+        line-height: 1.1 !important;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        padding-right: 10px;
+    }
+}

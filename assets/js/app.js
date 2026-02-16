@@ -156,3 +156,42 @@ function toggleFaq(button) {
         faqItem.setAttribute('aria-expanded', 'true');
     }
 }
+
+// Mobile Menu Toggle
+function toggleMobileMenu() {
+    const mobileMenu = document.getElementById('mobileMenu');
+    const body = document.body;
+    
+    if (mobileMenu.classList.contains('active')) {
+        mobileMenu.classList.remove('active');
+        body.classList.remove('mobile-menu-open');
+    } else {
+        mobileMenu.classList.add('active');
+        body.classList.add('mobile-menu-open');
+    }
+}
+
+// Close mobile menu on ESC key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        const mobileMenu = document.getElementById('mobileMenu');
+        const body = document.body;
+        if (mobileMenu.classList.contains('active')) {
+            mobileMenu.classList.remove('active');
+            body.classList.remove('mobile-menu-open');
+        }
+    }
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', function(event) {
+    const mobileMenu = document.getElementById('mobileMenu');
+    const burgerButton = document.querySelector('.burger-menu');
+    
+    if (mobileMenu.classList.contains('active') && 
+        !event.target.closest('.mobile-menu-content') && 
+        !event.target.closest('.burger-menu')) {
+        mobileMenu.classList.remove('active');
+        document.body.classList.remove('mobile-menu-open');
+    }
+});
