@@ -1,0 +1,110 @@
+/* terms BLOCK */
+.policy__content {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.policy__title {
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px
+}
+
+.terms__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.terms__content-textblock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.terms__content-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #4ABCD4;
+    line-height: 0.8;
+    margin-bottom: 7px;
+}
+
+.terms__content-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #787878;
+}
+
+
+
+/* САМА ПОЛИТИКА */
+.terms__content-terms-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.term-line {
+    height: 2px;
+    width: 100%;
+    background-color: #787878;
+    margin-bottom: 20px;
+}
+
+.terms__content-terms-block-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.term-block__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #01487a;
+    margin-bottom: 16px;
+}
+
+.terms-block__rules {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.term-rule {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: #000000;
+    line-height: 1;
+}
+
+.term-rule__num {
+    font-weight: 600;
+    color: #01487a;
+    font-size: 21px;
+}
+
+.term-rule a {
+    font-weight: 600;
+    color: #01487a;
+    text-decoration: underline;
+}

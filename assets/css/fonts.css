@@ -1,0 +1,115 @@
+/* Montserrat */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+/* Montserrat Alternates */
+
+@font-face {
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+
+/* DELA GOTHICS ONE */
+@font-face {
+    font-family: 'DelaGothicsOne';
+    src: url('../fonts/DelaGothicOne-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+
+
+/* DAYS ONE */
+@font-face {
+    font-family: 'DaysOne';
+    src: url('../fonts/DaysOne-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}

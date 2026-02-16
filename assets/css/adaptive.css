@@ -1,0 +1,6223 @@
+@media (min-width: 2000px) and (max-width: 7000px) { 
+    /* ХЕДЕР */
+    .header {
+        margin-bottom: 60px;
+    }
+
+    .header__content-logo-image {
+        height: 58px;
+        width: 58px;
+        border-radius: 22px;
+    }
+
+    .header__content-logo-text {
+        font-size: 38px;
+    }
+    
+    .header__content-nav {
+        gap: 22px;
+    }
+    
+    .nav-link {
+        font-size: 25px;
+        padding: 12px 23px;
+    }
+    
+    .header__content-button {
+        gap: 14px;
+        padding: 14px 24px;
+        border-radius: 80px;
+        font-size: 25px;
+        min-height: 64px;
+    }
+
+    .header__content-button svg {
+        height: 26px;
+        width: 26px;
+    }
+
+    .header__content-button-icon {
+        width: 36px;
+        height: 36px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 122px;
+        line-height: 1;
+    }
+
+    .policy__title {
+        font-size: 95px;
+    }
+
+    .hero__description {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 14px;
+        padding: 14px 24px;
+        border-radius: 80px;
+        font-size: 25px;
+        min-height: 64px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 26px;
+        width: 26px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .rating-card {
+        width: 386px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 104px;
+    }
+    
+    .rating-card__icon svg {
+        width: 46px;
+        height: 46px;
+    }
+    
+    .rating-card__text {
+        font-size: 25px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 25px;
+    }
+
+    .hero__image img {
+        height: 840px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 110px;
+        line-height: 1;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 30px;
+    }
+    
+    .plyr__controls__item {
+        font-size: 18px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 26px;
+    }
+
+    .method__block-var-title {
+        font-size: 40px;
+    }
+
+    .method__block-var-describe {
+        font-size: 25px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 32px;
+    }
+
+    .image-placeholder {
+        height: 600px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 38px;
+        height: 38px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 58px;
+        width: 58px;
+        border-radius: 16px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 30px;
+    }
+
+    .review__block-text {
+        font-size: 24px;
+    }
+
+    .reviews__content-more-button {
+        gap: 26px;
+        padding: 14px 24px;
+        font-size: 26px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 32px;
+        width: 32px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 32px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 24px;
+    }
+
+    .uslugi__block-button {
+        font-size: 24px;
+        padding: 12px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 24px;
+    }
+
+    .online__content-describe {
+        font-size: 27px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 12px 16px;
+        border-radius: 21px;
+    }
+    
+    .contact__block-icon {
+        height: 42px;
+        width: 42px;
+    }
+    
+    .contact__block-text {
+        font-size: 26px;
+    }
+    
+    .contact__block-arrow {
+        height: 36px;
+        width: 36px;
+    }
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 1200px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 34px;
+    }
+
+    .modal-close {
+        width: 46px;
+        height: 46px;
+    }
+    
+    .modal-required {
+        font-size: 25px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 25px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 24px;
+        padding: 15px 20px 15px 80px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 60px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .form-submit-btn {
+        padding: 18px 32px;
+        font-size: 24px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-title {
+        font-size: 78px;
+    }
+
+    .terms__content-terms-block-text {
+        font-size: 28px;
+    }
+
+    .term-block__title {
+        font-size: 46px;
+    }
+
+    .terms-block__rules {
+        gap: 14px;
+        margin-bottom: 30px;
+    }
+
+    .term-line {
+        margin-bottom: 30px;
+    }
+
+    .term-rule {
+        font-size: 26px;
+    }
+
+    .term-rule__num {
+        font-size: 27px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 26px;
+    }
+}
+
+
+
+@media (min-width: 1900px) and (max-width: 1999px) { 
+    /* ХЕДЕР */
+    .header {
+        margin-bottom: 60px;
+    }
+
+    .header__content-logo-image {
+        height: 52px;
+        width: 52px;
+        border-radius: 20px;
+    }
+
+    .header__content-logo-text {
+        font-size: 28px;
+    }
+    
+    .header__content-nav {
+        gap: 22px;
+    }
+    
+    .nav-link {
+        font-size: 23px;
+        padding: 12px 23px;
+    }
+    
+    .header__content-button {
+        gap: 14px;
+        padding: 11px 24px;
+        border-radius: 80px;
+        font-size: 25px;
+        min-height: 64px;
+    }
+
+    .header__content-button svg {
+        height: 26px;
+        width: 26px;
+    }
+
+    .header__content-button-icon {
+        width: 36px;
+        height: 36px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 118px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 95px;
+    }
+
+    .hero__description {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 14px;
+        padding: 12px 24px;
+        border-radius: 80px;
+        font-size: 24px;
+        min-height: 64px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 26px;
+        width: 26px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .rating-card {
+        width: 371px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 104px;
+    }
+    
+    .rating-card__icon svg {
+        width: 46px;
+        height: 46px;
+    }
+    
+    .rating-card__text {
+        font-size: 25px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 25px;
+    }
+
+    .hero__image img {
+        height: 740px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 100px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 30px;
+    }
+    
+    .plyr__controls__item {
+        font-size: 18px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 23px;
+    }
+
+    .method__block-var-title {
+        font-size: 36px;
+    }
+
+    .method__block-var-describe {
+        font-size: 23px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 28px;
+    }
+
+    .image-placeholder {
+        height: 540px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 34px;
+        height: 34px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 54px;
+        width: 54px;
+        border-radius: 15px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 27px;
+    }
+
+    .review__block-text {
+        font-size: 23px;
+    }
+
+    .reviews__content-more-button {
+        gap: 26px;
+        padding: 14px 24px;
+        font-size: 24px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 32px;
+        width: 32px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 28px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 23px;
+    }
+
+    .uslugi__block-button {
+        font-size: 23px;
+        padding: 12px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 23px;
+    }
+
+    .online__content-describe {
+        font-size: 24px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 14px 16px;
+        border-radius: 21px;
+    }
+    
+    .contact__block-icon {
+        height: 36px;
+        width: 36px;
+    }
+    
+    .contact__block-text {
+        font-size: 26px;
+    }
+    
+    .contact__block-arrow {
+        height: 34px;
+        width: 34px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 1200px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 28px;
+    }
+
+    .modal-close {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .modal-required {
+        font-size: 24px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 22px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 24px;
+        padding: 15px 20px 15px 80px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 60px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .form-submit-btn {
+        padding: 18px 32px;
+        font-size: 23px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 26px;
+    }
+
+    .term-block__title {
+        font-size: 41px;
+    }
+
+    .terms-block__rules {
+        gap: 14px;
+        margin-bottom: 25px;
+    }
+
+    .term-line {
+        margin-bottom: 25px;
+    }
+
+    .term-rule {
+        font-size: 25px;
+    }
+
+    .term-rule__num {
+        font-size: 24px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width: 1800px) and (max-width: 1899px) { 
+    /* ХЕДЕР */
+    .header {
+        margin-bottom: 60px;
+    }
+
+    .header__content-logo-image {
+        height: 52px;
+        width: 52px;
+        border-radius: 20px;
+    }
+
+    .header__content-logo-text {
+        font-size: 27px;
+    }
+    
+    .header__content-nav {
+        gap: 22px;
+    }
+    
+    .nav-link {
+        font-size: 23px;
+        padding: 12px 23px;
+    }
+    
+    .header__content-button {
+        gap: 14px;
+        padding: 11px 24px;
+        border-radius: 80px;
+        font-size: 22px;
+        min-height: 53px;
+    }
+
+    .header__content-button svg {
+        height: 23px;
+        width: 23px;
+    }
+
+    .header__content-button-icon {
+        width: 31px;
+        height: 31px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 105px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 95px;
+    }
+
+    .hero__description {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 14px;
+        padding: 11px 24px;
+        border-radius: 80px;
+        font-size: 23px;
+        min-height: 53px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 23px;
+        width: 23px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 31px;
+        height: 31px;
+    }
+
+    .rating-card {
+        width: 358px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 104px;
+    }
+    
+    .rating-card__icon svg {
+        width: 46px;
+        height: 46px;
+    }
+    
+    .rating-card__text {
+        font-size: 25px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 25px;
+    }
+
+    .hero__image img {
+        height: 720px;
+        position: absolute;
+        bottom: -15px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 95px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 30px;
+    }
+    
+    .plyr__controls__item {
+        font-size: 18px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 23px;
+    }
+
+    .method__block-var-title {
+        font-size: 36px;
+    }
+
+    .method__block-var-describe {
+        font-size: 23px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 26px;
+    }
+
+    .image-placeholder {
+        height: 540px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 34px;
+        height: 34px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 54px;
+        width: 54px;
+        border-radius: 15px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 27px;
+    }
+
+    .review__block-text {
+        font-size: 23px;
+    }
+
+    .reviews__content-more-button {
+        gap: 26px;
+        padding: 14px 24px;
+        font-size: 24px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 32px;
+        width: 32px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 28px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 23px;
+    }
+
+    .uslugi__block-button {
+        font-size: 23px;
+        padding: 12px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 23px;
+    }
+
+    .online__content-describe {
+        font-size: 24px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 14px 16px;
+        border-radius: 21px;
+    }
+    
+    .contact__block-icon {
+        height: 36px;
+        width: 36px;
+    }
+    
+    .contact__block-text {
+        font-size: 24px;
+    }
+    
+    .contact__block-arrow {
+        height: 34px;
+        width: 34px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 1200px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 28px;
+    }
+
+    .modal-close {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .modal-required {
+        font-size: 24px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 22px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 24px;
+        padding: 15px 20px 15px 80px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 60px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .form-submit-btn {
+        padding: 18px 32px;
+        font-size: 23px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 25px;
+    }
+
+    .term-block__title {
+        font-size: 38px;
+    }
+
+    .terms-block__rules {
+        gap: 14px;
+        margin-bottom: 25px;
+    }
+
+    .term-line {
+        margin-bottom: 25px;
+    }
+
+    .term-rule {
+        font-size: 23px;
+    }
+
+    .term-rule__num {
+        font-size: 24px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width: 1700px) and (max-width: 1799px) { 
+    .nav-link {
+        font-size: 22px;
+        padding: 12px 23px;
+    }
+    
+    .header__content-button {
+        gap: 14px;
+        padding: 10px 24px;
+        border-radius: 80px;
+        font-size: 20px;
+        min-height: 50px;
+    }
+
+    .header__content-button svg {
+        height: 21px;
+        width: 21px;
+    }
+
+    .header__content-button-icon {
+        width: 28px;
+        height: 28px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 85px;
+        line-height: 1;
+    }
+
+    .hero__description {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 14px;
+        padding: 11px 24px;
+        border-radius: 80px;
+        font-size: 23px;
+        min-height: 53px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 23px;
+        width: 23px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 31px;
+        height: 31px;
+    }
+
+    .rating-card {
+        width: 358px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 104px;
+    }
+    
+    .rating-card__icon svg {
+        width: 46px;
+        height: 46px;
+    }
+    
+    .rating-card__text {
+        font-size: 25px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 25px;
+    }
+
+    .hero__image img {
+        height: 750px;
+        position: absolute;
+        bottom: -35px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 80px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 26px;
+    }
+    
+    .plyr__controls__item {
+        font-size: 18px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 23px;
+    }
+
+    .method__block-var-title {
+        font-size: 30px;
+    }
+
+    .method__block-var-describe {
+        font-size: 22px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 23px;
+    }
+
+    .image-placeholder {
+        height: 470px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 50px;
+        width: 50px;
+        border-radius: 16px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 24px;
+    }
+
+    .review__block-text {
+        font-size: 20px;
+    }
+
+    .reviews__content-more-button {
+        gap: 26px;
+        padding: 14px 24px;
+        font-size: 21px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 32px;
+        width: 32px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 25px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 21px;
+    }
+
+    .uslugi__block-button {
+        font-size: 21px;
+        padding: 12px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 21px;
+    }
+
+    .online__content-describe {
+        font-size: 23px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 14px 16px;
+        border-radius: 21px;
+    }
+    
+    .contact__block-icon {
+        height: 32px;
+        width: 32px;
+    }
+    
+    .contact__block-text {
+        font-size: 21px;
+    }
+    
+    .contact__block-arrow {
+        height: 31px;
+        width: 31px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 1200px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 28px;
+    }
+
+    .modal-close {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .modal-required {
+        font-size: 24px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 22px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 24px;
+        padding: 15px 20px 15px 80px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 60px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .form-submit-btn {
+        padding: 18px 32px;
+        font-size: 23px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 25px;
+    }
+
+    .term-block__title {
+        font-size: 38px;
+    }
+
+    .terms-block__rules {
+        gap: 14px;
+        margin-bottom: 25px;
+    }
+
+    .term-line {
+        margin-bottom: 25px;
+    }
+
+    .term-rule {
+        font-size: 22px;
+    }
+
+    .term-rule__num {
+        font-size: 23px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 26px;
+    }
+}
+
+
+
+@media (min-width: 1600px) and (max-width: 1699px) { 
+    .nav-link {
+        font-size: 21px;
+        padding: 12px 23px;
+    }
+    
+    .header__content-button {
+        gap: 14px;
+        padding: 10px 18px;
+        border-radius: 80px;
+        font-size: 20px;
+        min-height: 50px;
+    }
+
+    .header__content-button svg {
+        height: 21px;
+        width: 21px;
+    }
+
+    .header__content-button-icon {
+        width: 28px;
+        height: 28px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 80px;
+        line-height: 1;
+    }
+
+    .hero__description {
+        font-size: 22px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 14px;
+        padding: 11px 24px;
+        border-radius: 80px;
+        font-size: 22px;
+        min-height: 53px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 23px;
+        width: 23px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 31px;
+        height: 31px;
+    }
+
+    .rating-card {
+        width: 344px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 90px;
+    }
+    
+    .rating-card__icon svg {
+        width: 46px;
+        height: 46px;
+    }
+    
+    .rating-card__text {
+        font-size: 24px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 24px;
+    }
+
+    .hero__image img {
+        height: 720px;
+        position: absolute;
+        bottom: -35px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 80px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 24px;
+    }
+    
+    .plyr__controls__item {
+        font-size: 18px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 23px;
+    }
+
+    .method__block-var-title {
+        font-size: 30px;
+    }
+
+    .method__block-var-describe {
+        font-size: 22px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 23px;
+    }
+
+    .image-placeholder {
+        height: 470px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 50px;
+        width: 50px;
+        border-radius: 16px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 24px;
+    }
+
+    .review__block-text {
+        font-size: 20px;
+    }
+
+    .reviews__content-more-button {
+        gap: 26px;
+        padding: 14px 24px;
+        font-size: 21px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 32px;
+        width: 32px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 25px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 21px;
+    }
+
+    .uslugi__block-button {
+        font-size: 21px;
+        padding: 12px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 21px;
+    }
+
+    .online__content-describe {
+        font-size: 23px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 14px 16px;
+        border-radius: 21px;
+    }
+    
+    .contact__block-icon {
+        height: 32px;
+        width: 32px;
+    }
+    
+    .contact__block-text {
+        font-size: 21px;
+    }
+    
+    .contact__block-arrow {
+        height: 31px;
+        width: 31px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 1000px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 25px;
+    }
+
+    .modal-close {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .modal-required {
+        font-size: 21px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 21px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 20px;
+        padding: 15px 20px 15px 80px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 60px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .form-submit-btn {
+        padding: 18px 32px;
+        font-size: 21px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 23px;
+        height: 23px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 24px;
+    }
+
+    .term-block__title {
+        font-size: 35px;
+    }
+
+    .terms-block__rules {
+        gap: 14px;
+        margin-bottom: 25px;
+    }
+
+    .term-line {
+        margin-bottom: 25px;
+    }
+
+    .term-rule {
+        font-size: 22px;
+    }
+
+    .term-rule__num {
+        font-size: 23px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 26px;
+    }
+}
+
+
+
+@media (min-width: 1500px) and (max-width: 1599px) { 
+    .nav-link {
+        font-size: 20px;
+        padding: 10px 18px;
+    }
+    
+    .header__content-button {
+        gap: 11px;
+        padding: 10px 18px;
+        border-radius: 80px;
+        font-size: 19px;
+        min-height: 50px;
+    }
+
+    .header__content-button svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .header__content-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 75px;
+        line-height: 1;
+    }
+
+    .hero__description {
+        font-size: 22px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 11px;
+        padding: 10px 18px;
+        border-radius: 80px;
+        font-size: 19px;
+        min-height: 50px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 286px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 70px;
+    }
+    
+    .rating-card__icon svg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .rating-card__text {
+        font-size: 22px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 23px;
+    }
+
+    .hero__image img {
+        height: 640px;
+        position: absolute;
+        bottom: -35px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 65px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 22px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 20px;
+    }
+
+    .method__block-var-title {
+        font-size: 28px;
+    }
+
+    .method__block-var-describe {
+        font-size: 20px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 23px;
+    }
+
+    .image-placeholder {
+        height: 430px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 44px;
+        width: 44px;
+        border-radius: 16px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 21px;
+    }
+
+    .review__block-text {
+        font-size: 19px;
+    }
+
+    .reviews__content-more-button {
+        gap: 18px;
+        padding: 11px 24px;
+        font-size: 21px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 28px;
+        width: 28px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 24px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 19px;
+    }
+
+    .uslugi__block-button {
+        font-size: 19px;
+        padding: 11px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 19px;
+    }
+
+    .online__content-describe {
+        font-size: 22px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 11px 16px;
+        border-radius: 21px;
+    }
+    
+    .contact__block-icon {
+        height: 28px;
+        width: 28px;
+    }
+    
+    .contact__block-text {
+        font-size: 18px;
+    }
+    
+    .contact__block-arrow {
+        height: 28px;
+        width: 28px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 1000px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 22px;
+    }
+
+    .modal-close {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .modal-required {
+        font-size: 19px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 19px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 18px;
+        padding: 13px 20px 13px 80px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 60px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 23px;
+        height: 23px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 19px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 21px;
+        height: 21px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 24px;
+    }
+
+    .term-block__title {
+        font-size: 35px;
+    }
+
+    .terms-block__rules {
+        gap: 14px;
+        margin-bottom: 25px;
+    }
+
+    .term-line {
+        margin-bottom: 25px;
+    }
+
+    .term-rule {
+        font-size: 20px;
+    }
+
+    .term-rule__num {
+        font-size: 21px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 22px;
+    }
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1499px) { 
+    .nav-link {
+        font-size: 20px;
+        padding: 10px 18px;
+    }
+    
+    .header__content-button {
+        gap: 11px;
+        padding: 9px 18px;
+        border-radius: 80px;
+        font-size: 19px;
+        min-height: 40px;
+    }
+
+    .header__content-button svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .header__content-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 85px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 75px;
+    }
+
+    .hero__description {
+        font-size: 22px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 11px;
+        padding: 9px 18px;
+        border-radius: 80px;
+        font-size: 19px;
+        min-height: 40px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 286px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 70px;
+    }
+    
+    .rating-card__icon svg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .rating-card__text {
+        font-size: 22px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 23px;
+    }
+
+    .hero__image img {
+        height: 640px;
+        position: absolute;
+        bottom: -42px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 60px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 25px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 20px;
+    }
+
+    .method__block-var-title {
+        font-size: 28px;
+    }
+
+    .method__block-var-describe {
+        font-size: 20px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 23px;
+    }
+
+    .image-placeholder {
+        height: 830px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 44px;
+        width: 44px;
+        border-radius: 16px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 21px;
+    }
+
+    .review__block-text {
+        font-size: 19px;
+    }
+
+    .reviews__content-more-button {
+        gap: 18px;
+        padding: 11px 24px;
+        font-size: 19px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 28px;
+        width: 28px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 22px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 18px;
+    }
+
+    .uslugi__block-button {
+        font-size: 18px;
+        padding: 11px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 18px;
+    }
+
+    .online__content-describe {
+        font-size: 20px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 11px 16px;
+        border-radius: 21px;
+    }
+    
+    .contact__block-icon {
+        height: 28px;
+        width: 28px;
+    }
+    
+    .contact__block-text {
+        font-size: 18px;
+    }
+    
+    .contact__block-arrow {
+        height: 28px;
+        width: 28px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 1000px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 22px;
+    }
+
+    .modal-close {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .modal-required {
+        font-size: 19px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 19px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 18px;
+        padding: 13px 20px 13px 80px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 60px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 23px;
+        height: 23px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 19px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 21px;
+        height: 21px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 22px;
+    }
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1299px) { 
+    .header__content-logo-image {
+        height: 36px;
+        width: 36px;
+        border-radius: 14px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 22px;
+    }
+
+    .nav-link {
+        font-size: 17px;
+        padding: 8px 16px;
+    }
+    
+    .header__content-button {
+        gap: 6px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 17px;
+        min-height: 40px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 18px;
+        width: 18px;
+    }
+
+    .header__content-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 75px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 62px;
+    }
+
+    .hero__description {
+        font-size: 19px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 11px;
+        padding: 9px 18px;
+        border-radius: 80px;
+        font-size: 17px;
+        min-height: 40px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 269px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 60px;
+    }
+    
+    .rating-card__icon svg {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .rating-card__text {
+        font-size: 20px;
+    }
+    
+    .rating-card__side {  
+        right: -40px;
+        font-size: 23px;
+    }
+
+    .hero__image img {
+        height: 510px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 50px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 19px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 18px;
+    }
+
+    .method__block-var-title {
+        font-size: 26px;
+    }
+
+    .method__block-var-describe {
+        font-size: 17px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 21px;
+    }
+
+    .image-placeholder {
+        height: 430px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 14px;
+        height: 14px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 19px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-button {
+        font-size: 16px;
+        padding: 10px 24px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 16px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 10px 12px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .contact__block-text {
+        font-size: 16px;
+    }
+    
+    .contact__block-arrow {
+        height: 22px;
+        width: 22px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 19px;
+    }
+
+    .term-block__title {
+        font-size: 30px;
+    }
+
+    .term-rule {
+        font-size: 17px;
+    }
+
+    .term-rule__num {
+        font-size: 18px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 19px;
+    }
+}
+
+
+@media (min-width: 1100px) and (max-width: 1199px) { 
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 14px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 22px;
+    }
+
+    .header__content-nav {
+        gap: 7px;
+    }
+
+    .nav-link {
+        font-size: 17px;
+        padding: 8px 16px;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 40px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 16px;
+        width: 16px;
+    }
+
+    .header__content-button-icon {
+        width: 22px;
+        height: 22px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 65px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 55px;
+    }
+
+    .hero__description {
+        font-size: 17px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 11px;
+        padding: 9px 18px;
+        border-radius: 80px;
+        font-size: 17px;
+        min-height: 40px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 269px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 60px;
+    }
+    
+    .rating-card__icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .rating-card__text {
+        font-size: 17px;
+    }
+    
+    .rating-card__side {  
+        right: -30px;
+        font-size: 19px;
+    }
+
+    .hero__image img {
+        height: 470px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 50px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 17px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 17px;
+    }
+
+    .method__block-var-title {
+        font-size: 24px;
+    }
+
+    .method__block-var-describe {
+        font-size: 17px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 21px;
+    }
+
+    .image-placeholder {
+        height: 430px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 18px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 10px 12px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .contact__block-text {
+        font-size: 16px;
+    }
+    
+    .contact__block-arrow {
+        height: 22px;
+        width: 22px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 19px;
+    }
+
+    .term-block__title {
+        font-size: 28px;
+    }
+
+    .term-rule {
+        font-size: 17px;
+    }
+
+    .term-rule__num {
+        font-size: 18px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 18px;
+    }
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1099px) { 
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__title {
+        font-size: 65px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 52px;
+    }
+
+    .hero__description {
+        font-size: 17px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 238px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 50px;
+    }
+    
+    .rating-card__icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .rating-card__text {
+        font-size: 17px;
+    }
+    
+    .rating-card__side {  
+        right: -30px;
+        font-size: 18px;
+    }
+
+    .hero__image img {
+        height: 470px;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 50px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 17px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 17px;
+    }
+
+    .method__block-var-title {
+        font-size: 24px;
+    }
+
+    .method__block-var-describe {
+        font-size: 17px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .image-placeholder {
+        height: 350px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        gap: 12px;
+    }
+
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 18px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 10px 12px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .contact__block-text {
+        font-size: 16px;
+    }
+    
+    .contact__block-arrow {
+        height: 22px;
+        width: 22px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 19px;
+    }
+
+    .term-block__title {
+        font-size: 28px;
+    }
+
+    .term-rule {
+        font-size: 17px;
+    }
+
+    .term-rule__num {
+        font-size: 18px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 17px;
+    }
+}
+
+
+
+@media (min-width: 900px) and (max-width: 999px) { 
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__content {
+        grid-template-columns: 1fr;
+    } 
+
+    .hero-correct {
+        flex-direction: row;
+        align-items: center;
+        margin-top: -20px;
+        justify-content: space-between;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .hero__title {
+        font-size: 45px;
+        line-height: 1;
+    }
+
+    .hero__description {
+        font-size: 17px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        flex-direction: row;
+        width: 100%;
+        gap: 25px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 50px;
+    }
+    
+    .rating-card__icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .rating-card__text {
+        font-size: 17px;
+        margin-right: 20px;
+    }
+    
+    .rating-card__side {  
+        right: -7px;
+        font-size: 10px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 50px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 17px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 17px;
+    }
+
+    .method__block-var-title {
+        font-size: 24px;
+    }
+
+    .method__block-var-describe {
+        font-size: 17px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .image-placeholder {
+        height: 350px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        gap: 12px;
+    }
+
+    .uslugi__block {
+        padding: 14px;
+    }
+    
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 16px;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .contact__block-text {
+        font-size: 16px;
+    }
+    
+    .contact__block-arrow {
+        height: 22px;
+        width: 22px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-terms-block-text {
+        font-size: 18px;
+    }
+
+    .term-block__title {
+        font-size: 28px;
+    }
+
+    .term-rule {
+        font-size: 16px;
+    }
+
+    .term-rule__num {
+        font-size: 17px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 17px;
+    }
+}
+
+
+
+@media (min-width: 800px) and (max-width: 899px) { 
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__content {
+        grid-template-columns: 1fr;
+    } 
+
+    .hero-correct {
+        flex-direction: row;
+        align-items: center;
+        margin-top: -20px;
+        justify-content: space-between;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .hero__title {
+        font-size: 45px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 38px;
+    }
+
+    .hero__description {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        flex-direction: row;
+        width: 100%;
+        gap: 25px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 50px;
+    }
+    
+    .rating-card__icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .rating-card__text {
+        font-size: 17px;
+    }
+    
+    .rating-card__side {  
+        right: -7px;
+        font-size: 10px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 50px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 17px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 17px;
+    }
+
+    .method__block-var-title {
+        font-size: 24px;
+    }
+
+    .method__block-var-describe {
+        font-size: 17px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .image-placeholder {
+        height: 350px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        gap: 12px;
+    }
+
+    .uslugi__block {
+        padding: 14px;
+    }
+    
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-infoblock {
+        flex-direction: column;
+        gap: 7px;
+        justify-content: flex-start;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 16px;
+        width: 100%;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .contact__block-text {
+        font-size: 16px;
+    }
+    
+    .contact__block-arrow {
+        height: 22px;
+        width: 22px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-title {
+        font-size: 38px;
+    }
+
+    .terms__content-terms-block-text {
+        font-size: 18px;
+    }
+
+    .term-block__title {
+        font-size: 26px;
+    }
+
+    .term-rule {
+        font-size: 16px;
+    }
+
+    .term-rule__num {
+        font-size: 17px;
+    }
+
+    /* ФУТЕР */
+    .legal-code,
+    .policy__link {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (min-width: 700px) and (max-width: 799px) { 
+    .header {
+        margin-bottom: 7px;
+    }
+
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-correct {
+        flex-direction: row;
+        align-items: center;
+        margin-top: -20px;
+        justify-content: space-between;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 37px;
+    }
+
+    .hero__description {
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        flex-direction: row;
+        width: 100%;
+        gap: 6px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 35px;
+    }
+    
+    .rating-card__icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .rating-card__text {
+        font-size: 15px;
+    }
+    
+    .rating-card__side {  
+        right: -15px;
+        font-size: 9px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 40px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 16px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-variants {
+        gap: 7px;
+    }
+
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 16px;
+    }
+
+    .method__block-var-title {
+        font-size: 24px;
+    }
+
+    .method__block-var-describe {
+        font-size: 16px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .image-placeholder {
+        height: 350px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .uslugi__block {
+        padding: 14px;
+    }
+    
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-infoblock {
+        flex-direction: column;
+        gap: 7px;
+        justify-content: flex-start;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 16px;
+        width: 100%;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 23px;
+        width: 23px;
+    }
+    
+    .contact__block-text {
+        font-size: 15px;
+    }
+    
+    .contact__block-arrow {
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-title {
+        font-size: 42px;
+    }
+
+    .terms__content-terms-block-text {
+        font-size: 18px;
+    }
+
+    .term-block__title {
+        font-size: 26px;
+    }
+
+    .term-rule {
+        font-size: 16px;
+    }
+
+    .term-rule__num {
+        font-size: 17px;
+    }
+
+    /* ФУТЕР */
+    .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    .legal-code,
+    .policy__link {
+        font-size: 19px;
+    }
+
+    .footer__content-textblock {
+        margin-bottom: 11px;
+    }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 699px) { 
+    .header {
+        margin-bottom: 7px;
+    }
+
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-correct {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 30px;
+    }
+
+    .hero__description {
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 238px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 50px;
+    }
+    
+    .rating-card__icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .rating-card__text {
+        font-size: 17px;
+    }
+    
+    .rating-card__side {  
+        right: -30px;
+        font-size: 18px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 40px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 16px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-variants {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 16px;
+    }
+
+    .method__block-var-title {
+        font-size: 26px;
+    }
+
+    .method__block-var-describe {
+        font-size: 15px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .achievement__content-images-block {
+        gap: 12px;
+    }
+
+    .image-placeholder {
+        height: 260px;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .uslugi__block {
+        padding: 14px;
+    }
+    
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-infoblock {
+        flex-direction: column;
+        gap: 7px;
+        justify-content: flex-start;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 16px;
+        width: 100%;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contact__block {
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 23px;
+        width: 23px;
+    }
+    
+    .contact__block-text {
+        font-size: 15px;
+    }
+    
+    .contact__block-arrow {
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-title {
+        font-size: 36px;
+    }
+
+    .terms__content-terms-block-text {
+        font-size: 18px;
+    }
+
+    .term-block__title {
+        font-size: 25px;
+    }
+
+    .term-rule {
+        font-size: 15px;
+    }
+
+    .term-rule__num {
+        font-size: 16px;
+    }
+
+    /* ФУТЕР */
+    .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    .legal-code,
+    .policy__link {
+        font-size: 18px;
+    }
+
+    .footer__content-textblock {
+        margin-bottom: 11px;
+    }
+}
+
+
+
+@media (min-width: 500px) and (max-width: 599px) { 
+    .header {
+        margin-bottom: 7px;
+    }
+
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-correct {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 23px;
+    }
+
+    .hero__description {
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 9px;
+        border-radius: 80px;
+        font-size: 15px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 208px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 40px;
+    }
+    
+    .rating-card__icon svg {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .rating-card__text {
+        font-size: 15px;
+    }
+    
+    .rating-card__side {  
+        right: -30px;
+        font-size: 16px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 40px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 16px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-variants {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 16px;
+    }
+
+    .method__block-var-title {
+        font-size: 26px;
+    }
+
+    .method__block-var-describe {
+        font-size: 15px;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .achievement__content-images-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .image-placeholder {
+        height: 100%;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .uslugi__block {
+        padding: 14px;
+    }
+    
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-infoblock {
+        flex-direction: column;
+        gap: 7px;
+        justify-content: flex-start;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 16px;
+        width: 100%;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contacts__content-parts {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts__content-right iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .contact__block {
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 23px;
+        width: 23px;
+    }
+    
+    .contact__block-text {
+        font-size: 15px;
+    }
+    
+    .contact__block-arrow {
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-title {
+        font-size: 36px;
+    }
+
+    .terms__content-terms-block-text {
+        font-size: 18px;
+    }
+
+    .term-block__title {
+        font-size: 24px;
+    }
+
+    .term-rule {
+        font-size: 15px;
+    }
+
+    .term-rule__num {
+        font-size: 16px;
+    }
+
+    /* ФУТЕР */
+    .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    .legal-code,
+    .policy__link {
+        font-size: 17px;
+    }
+
+    .footer__content-textblock {
+        margin-bottom: 11px;
+    }
+}
+
+
+
+@media (min-width: 400px) and (max-width: 499px) { 
+    .header {
+        margin-bottom: 7px;
+    }
+
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 80px;
+        font-size: 16px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-correct {
+        flex-direction: column;
+    }
+
+    .hero__title {
+        font-size: 42px;
+        line-height: 1;
+    }
+    
+    .policy__title {
+        font-size: 20px;
+    }
+
+    .hero__description {
+        font-size: 13px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 9px;
+        border-radius: 80px;
+        font-size: 15px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 208px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 40px;
+    }
+    
+    .rating-card__icon svg {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .rating-card__text {
+        font-size: 15px;
+    }
+    
+    .rating-card__side {  
+        right: -30px;
+        font-size: 16px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 32px;
+        line-height: 0.9;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 16px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-variants {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 16px;
+    }
+
+    .method__block-var-title {
+        font-size: 26px;
+    }
+
+    .method__block-var-describe {
+        font-size: 15px;
+    }
+
+    .method__block-buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .achievement__content-images-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .image-placeholder {
+        height: 100%;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .uslugi__block {
+        padding: 14px;
+    }
+    
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-infoblock {
+        flex-direction: column;
+        gap: 7px;
+        justify-content: flex-start;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 16px;
+        width: 100%;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contacts__content-parts {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts__content-right iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .contact__block {
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 23px;
+        width: 23px;
+    }
+    
+    .contact__block-text {
+        font-size: 15px;
+    }
+    
+    .contact__block-arrow {
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-title {
+        font-size: 31px;
+    }
+    
+    .terms__content-terms-block-text {
+        font-size: 18px;
+    }
+
+    .term-block__title {
+        font-size: 24px;
+    }
+
+    .term-rule {
+        font-size: 15px;
+    }
+
+    .term-rule__num {
+        font-size: 16px;
+    }
+
+    /* ФУТЕР */
+    .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    .legal-code,
+    .policy__link {
+        font-size: 17px;
+    }
+
+    .footer__content-textblock {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+@media (min-width: 10px) and (max-width: 399px) { 
+    .header {
+        margin-bottom: 7px;
+    }
+
+    .header__content-logo {
+        gap: 7px;
+    }
+
+    .header__content-logo-image {
+        height: 32px;
+        width: 32px;
+        border-radius: 11px;
+    }
+    
+    .header__content-logo-text {
+        font-size: 20px;
+    }
+
+    .header__content-nav {
+        gap: 5px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .header__content-button {
+        gap: 8px;
+        padding: 9px 9px;
+        border-radius: 80px;
+        font-size: 14px;
+        min-height: 30px;
+    }
+
+    .header__content-button-tel {
+        display: none;
+    }
+
+    .mobile-adaptive-tel {
+        display: flex;
+    }
+
+    .header__content-button svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .header__content-button-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* LANDING TITLE */
+    .hero__content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-correct {
+        flex-direction: column;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        line-height: 1;
+        padding: 0px 20px 0px 0px;
+    }
+    
+    .policy__title {
+        font-size: 25px;
+    }
+
+    .hero__description {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .hero__button,
+    .method__block-button--filled,
+    .online__content-button,
+    .contact__content-left-button,
+    .method__block-button--outline {
+        gap: 8px;
+        padding: 9px 9px;
+        border-radius: 80px;
+        font-size: 15px;
+        min-height: 42px;
+    }
+    
+    .hero__button-icon svg,
+    .method__block-button-icon svg,
+    .online__content-button-icon svg,
+    .contact__content-left-button-icon svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hero__button-icon,
+    .method__block-button-icon,
+    .online__content-button-icon,
+    .contact__content-left-button-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .rating-card {
+        width: 208px;
+        border-radius: 25px;
+    }
+
+    .rating-card__value {
+        font-size: 40px;
+    }
+    
+    .rating-card__icon svg {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .rating-card__text {
+        font-size: 15px;
+    }
+    
+    .rating-card__side {  
+        right: -30px;
+        font-size: 16px;
+    }
+
+    .hero__image {
+        display: none;
+    }
+    
+    /* О НАС */
+    .about__content-title,
+    .method__block-title,
+    .achievement__content-title,
+    .reviews__content-title,
+    .uslugi__content-title,
+    .online__content-title,
+    .contacts__content-title,
+    .sertifications__content-title {
+        font-size: 36px;
+        line-height: 0.9;
+    }
+
+    .method__block-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__content-subtitle,
+    .method__block-subtitle,
+    .online__content-subtitle {
+        font-size: 19px;
+    }
+    
+
+
+    /* О МЕТОДЕ */
+    .method__block-variants {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .method__block-paragraph,
+    .method__block-second-paragraph {
+        font-size: 16px;
+    }
+
+    .method__block-var-title {
+        font-size: 26px;
+    }
+
+    .method__block-var-describe {
+        font-size: 15px;
+    }
+
+    .method__block-buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    
+
+    /* ДОСТИЖЕНИЯ */
+    .achievement__content-img-title {
+        font-size: 20px;
+    }
+
+    .achievement__content-images-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .image-placeholder {
+        height: 100%;
+        border-radius: 14px;
+    }
+
+    .slider-btn,
+    .sert-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .slider-btn svg,
+    .sert-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator,
+    .sert-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* ОТЗЫВЫ */
+    .reviews__content-blocks {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    .review__block-nick-img {
+        height: 30px;
+        width: 30px;
+        border-radius: 11px;
+    }
+    
+    .review__block-nick-text {
+        font-size: 18px;
+    }
+
+    .review__block-text {
+        font-size: 16px;
+    }
+
+    .reviews__content-more-button {
+        gap: 12px;
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+    
+    .reviews__content-more-button svg {
+        height: 24px;
+        width: 24px;
+    }
+
+
+
+    /* УСЛУГИ */
+    .uslugi__content-blocks {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .uslugi__block {
+        padding: 14px;
+    }
+    
+    .uslugi__block-title {
+        font-size: 20px;
+    }
+
+    .uslugi__block-describe {
+        font-size: 16px;
+    }
+
+    .uslugi__block-infoblock {
+        flex-direction: column;
+        gap: 7px;
+        justify-content: flex-start;
+    }
+
+    .uslugi__block-button {
+        font-size: 15px;
+        padding: 9px 16px;
+        width: 100%;
+    }
+    
+    .uslugi__block-price {
+        font-size: 15px;
+    }
+
+    .online__content-describe {
+        font-size: 16px;
+    }
+
+
+
+    /* КОНТАКТЫ */
+    .contacts__content-parts {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts__content-right iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .contact__block {
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+    
+    .contact__block-icon {
+        height: 23px;
+        width: 23px;
+    }
+    
+    .contact__block-text {
+        font-size: 15px;
+    }
+    
+    .contact__block-arrow {
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+    /* МОДАЛКА */
+    .modal-container {
+        border-radius: 20px;
+        max-width: 800px;
+        max-height: 96vh;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-close {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .modal-required {
+        font-size: 16px;
+    }
+
+    .form-label,
+    .required-star {
+        font-size: 16px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 15px;
+        padding: 11px 20px 11px 60px;
+    }
+
+    .form-textarea {
+        min-height: 150px;
+    }
+    
+    .input-icon-bg,
+    .textarea-icon-bg {
+        width: 50px;
+    }
+
+    .textarea-icon-bg {
+        height: 150px;
+    }
+
+    .input-icon,
+    .textarea-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 32px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .submit-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ТЕРМС */
+    .terms__content-title {
+        font-size: 28px;
+    }
+
+    
+    .terms__content-terms-block-text {
+        font-size: 18px;
+    }
+
+    .term-block__title {
+        font-size: 25px;
+    }
+
+    .term-rule {
+        font-size: 15px;
+    }
+
+    .term-rule__num {
+        font-size: 16px;
+    }
+
+    /* ФУТЕР */
+    .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    .legal-code,
+    .policy__link {
+        font-size: 16px;
+    }
+
+    .footer__content-textblock {
+        margin-bottom: 22px;
+    }
+}
