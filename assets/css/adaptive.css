@@ -6274,3 +6274,79 @@
         padding-right: 10px;
     }
 }
+
+/* ===== АДАПТИВ ДЛЯ НОВЫХ БЛОКОВ ===== */
+
+/* TRUST STATS — планшет */
+@media (max-width: 900px) {
+    .trust-stats__content {
+        gap: 0;
+    }
+    .trust-stat {
+        padding: 16px 20px;
+        min-width: 150px;
+    }
+    .trust-stat__number {
+        font-size: 36px;
+    }
+    .trust-stat__divider {
+        height: 40px;
+    }
+}
+
+/* TRUST STATS — мобайл */
+@media (max-width: 600px) {
+    .trust-stats {
+        padding: 30px 16px;
+        margin-bottom: 50px;
+    }
+    .trust-stats__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+    .trust-stat__divider {
+        display: none;
+    }
+    .trust-stat {
+        padding: 16px 10px;
+        min-width: unset;
+    }
+    .trust-stat__number {
+        font-size: 32px;
+    }
+    .trust-stat__label {
+        font-size: 12px;
+        max-width: unset;
+    }
+}
+
+/* ОФФЕР-БЛОК — планшет */
+@media (max-width: 900px) {
+    .offer-deposit__content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .offer-deposit__title {
+        font-size: 26px;
+    }
+}
+
+/* ОФФЕР-БЛОК — мобайл */
+@media (max-width: 600px) {
+    .offer-deposit {
+        margin: 0 10px 50px;
+        padding: 36px 20px;
+        border-radius: 20px;
+    }
+    .offer-deposit__title {
+        font-size: 22px;
+    }
+    .offer-deposit__deposit-amount {
+        font-size: 32px;
+    }
+    .offer-deposit__btn {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+}
