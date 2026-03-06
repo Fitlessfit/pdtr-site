@@ -424,33 +424,33 @@
                     <div class="methods__content-block block-two">
                         <h1 class="method__block-title second-title-block">ШАГИ <span>РАБОТЫ</span></h1>
 
-                        <div class="method__block-variants">
-                            <article class="method__block-var">
-                                <h1 class="method__block-var-title">1 — Шаги работы</h1>
+                        <div class="method__block-two-layout">
+                            <div class="method__block-two-text">
+                                <p class="method__block-section-label">■ Шаги работы</p>
                                 <p class="method__block-var-describe">
                                     — Оцениваю работу мышц — как тело управляет движением прямо сейчас и реагирует на нагрузку.<br>
                                     — Нахожу, где мозг «выключил» нужные реакции после травмы или длительной боли.<br>
                                     — Восстанавливаю естественное управление телом с помощью подхода P-DTR — метода нейромышечной коррекции.<br>
                                     — Работаю до заметных изменений в тестах и ощущениях, а не по таймеру. Приём заканчивается, когда есть заметный сдвиг.
                                 </p>
-                            </article>
 
-                            <article class="method__block-var">
-                                <h1 class="method__block-var-title">2 — Кому помогаю</h1>
+                                <p class="method__block-section-label" style="margin-top: 24px;">■ Кому помогаю</p>
                                 <p class="method__block-var-describe">
                                     → Спортсменам: подготовка к соревнованиям, восстановление после травм<br>
                                     → Офисным сотрудникам: боль в шее, пояснице, спине, суставах от сидячей работы<br>
                                     → После операций: восстановление контроля и силы<br>
                                     → Всем, кто устал слышать «это надо просто потерпеть»
                                 </p>
-                            </article>
+
+                                <p class="method__block-var-describe" style="margin-top: 24px; opacity: 0.75; font-size: 15px;">
+                                    P-DTR (Proprioceptive - Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.
+                                </p>
+                            </div>
+
+                            <div class="method__block-two-imgwrap">
+                                <img src="assets/img/blocks/block-about.png" alt="Анатолий Шемякин проводит прием" class="method__block-image">
+                            </div>
                         </div>
-
-                        <p class="method__block-var-describe" style="margin-top: 20px;">
-                            P-DTR (Proprioceptive - Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.
-                        </p>
-
-                        <img src="assets/img/blocks/block-about.png" alt="Анатолий Шемякин проводит прием" class="method__block-image">
                     </div>
 
                     <div class="methods__content-block block-three">

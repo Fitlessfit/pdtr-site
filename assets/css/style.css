@@ -505,6 +505,41 @@
     margin-bottom: 15px;
 }
 
+/* Лейаут: текст слева, фото справа */
+.method__block-two-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+}
+
+.method__block-two-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.method__block-section-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.method__block-two-imgwrap .method__block-image {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .method__block-two-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
 .method__block-var {
     display: flex;
     flex-direction: column;
