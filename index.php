@@ -291,7 +291,7 @@
             <section class="uslugi" id="requests">
                 <div class="uslugi__content">
                     <h1 class="uslugi__content-title">С чем ко мне обращаются</h1>
-                    <p style="max-width: 980px; margin: 0 auto 25px; text-align: center; font-size: 18px; line-height: 1.5;">
+                    <p class="uslugi__footer-text" style="text-align:center; max-width:980px; margin: 0 auto 30px;">
                         Работаю с самыми разными запросами — от хронической боли в пояснице до восстановления после сложных операций. Вот что встречается чаще всего:
                     </p>
 
@@ -301,7 +301,7 @@
                             <p class="uslugi__block-describe">
                                 Хроническая боль в пояснице, прострелы, ограничение движений при наклонах. Когда массаж и ЛФК уже не дают результата.
                             </p>
-                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">боль в пояснице, хроническая боль в спине, прострел в пояснице</p>
+                            <p class="seo-text">боль в пояснице, хроническая боль в спине, прострел в пояснице</p>
 
                             <div class="uslugi__block-infoblock">
                                 <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
@@ -313,7 +313,7 @@
                             <p class="uslugi__block-describe">
                                 Напряжение и боль в шейном отделе, головные боли напряжения, ограничение поворота головы. Частый запрос у офисных сотрудников.
                             </p>
-                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">боль в шее, боль в шейном отделе, напряжение в плечах, головная боль от шеи</p>
+                            <p class="seo-text">боль в шее, боль в шейном отделе, напряжение в плечах, головная боль от шеи</p>
 
                             <div class="uslugi__block-infoblock">
                                 <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
@@ -325,7 +325,7 @@
                             <p class="uslugi__block-describe">
                                 Боль в коленях, тазобедренных, плечевых и голеностопных суставах. Ощущение нестабильности, хруст, ограничение амплитуды.
                             </p>
-                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">боль в суставах, боль в колене, боль в тазобедренном суставе, нестабильность сустава</p>
+                            <p class="seo-text">боль в суставах, боль в колене, боль в тазобедренном суставе, нестабильность сустава</p>
 
                             <div class="uslugi__block-infoblock">
                                 <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
@@ -338,7 +338,7 @@
                             <p class="uslugi__block-describe">
                                 Растяжения, разрывы связок, переломы. Когда после травмы прошло время, а сила и уверенность в движении не вернулись.
                             </p>
-                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">восстановление после травмы, реабилитация после разрыва связок, после перелома не восстанавливается движение</p>
+                            <p class="seo-text">восстановление после травмы, реабилитация после разрыва связок, после перелома не восстанавливается движение</p>
 
                             <div class="uslugi__block-infoblock">
                                 <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
@@ -350,7 +350,7 @@
                             <p class="uslugi__block-describe">
                                 После операций на позвоночнике, суставах, удаления грыжи. Помогаю вернуть контроль движений и убрать последствия вынужденной неподвижности.
                             </p>
-                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">восстановление после операции на позвоночнике, реабилитация после операции на колене, после операции болит</p>
+                            <p class="seo-text">восстановление после операции на позвоночнике, реабилитация после операции на колене, после операции болит</p>
 
                             <div class="uslugi__block-infoblock">
                                 <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
@@ -362,7 +362,7 @@
                             <p class="uslugi__block-describe">
                                 Предсоревновательная подготовка, устранение компенсаций и слабых звеньев. Помогаю выйти на пик формы без риска травмы.
                             </p>
-                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">подготовка спортсмена к соревнованиям, нейромышечная коррекция для спортсменов, убрать компенсации в движении</p>
+                            <p class="seo-text">подготовка спортсмена к соревнованиям, нейромышечная коррекция для спортсменов, убрать компенсации в движении</p>
 
                             <div class="uslugi__block-infoblock">
                                 <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
@@ -370,15 +370,20 @@
                         </article>
                     </div>
 
-                    <p style="max-width: 980px; margin: 30px auto 15px; text-align: center; font-size: 18px; line-height: 1.5;">
-                        → Не нашли свой запрос? Напишите — разберём на диагностике.<br>
-                        Принимаю очно в Москве и онлайн из любого города.
-                    </p>
-                    <div style="text-align: center; margin-bottom: 20px;">
-                        <button type="button" class="uslugi__block-button" onclick="openModal()" style="padding: 14px 28px; font-size: 16px;">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <div class="uslugi__footer">
+                        <div class="uslugi__footer-left">
+                            <p class="uslugi__footer-text">
+                                → Не нашли свой запрос? Напишите — разберём на диагностике.<br>
+                                Принимаю очно в Москве и онлайн из любого города.
+                            </p>
+                            <div>
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="assets/img/blocks/block-uslugi.png" alt="Картинка для услуг" class="uslugi__content-image">
+                        </div>
                     </div>
-
-                    <img src="assets/img/blocks/block-uslugi.png" alt="Картинка для услуг" class="uslugi__content-image">
                 </div>
             </section>
 
@@ -390,17 +395,17 @@
                         <p class="about__content-subtitle">в чем реальная причина</p>
                     </div>
 
-                    <div style="max-width: 800px; text-align: left; margin: 0 auto; line-height: 1.5; color: #333; font-family: 'Montserrat', sans-serif;">
-                        <p style="margin-bottom: 20px; font-size: 18px;">
+                    <div class="about__text-content">
+                        <p>
                             Большинство методов лечат симптом — убирают боль на время. Но причина остается, и боль возвращается. Вот почему это происходит:
                         </p>
-                        <ul style="list-style-type: none; margin-bottom: 20px;">
-                            <li style="margin-bottom: 10px; font-size: 18px;">— Боль — это не просто «мышечное напряжение». Это сигнал о нарушении управления движением.</li>
-                            <li style="margin-bottom: 10px; font-size: 18px;">— Мышцы «выключаются» после травмы или боли — и не включаются обратно, даже когда «всё зажило».</li>
-                            <li style="margin-bottom: 10px; font-size: 18px;">— На МРТ это не видно, но тело продолжает работать вполсилы и защищается.</li>
-                            <li style="margin-bottom: 10px; font-size: 18px;">— ЛФК, таблетки и массаж снимают симптом, но не восстанавливают контроль.</li>
+                        <ul>
+                            <li>— Боль — это не просто «мышечное напряжение». Это сигнал о нарушении управления движением.</li>
+                            <li>— Мышцы «выключаются» после травмы или боли — и не включаются обратно, даже когда «всё зажило».</li>
+                            <li>— На МРТ это не видно, но тело продолжает работать вполсилы и защищается.</li>
+                            <li>— ЛФК, таблетки и массаж снимают симптом, но не восстанавливают контроль.</li>
                         </ul>
-                        <p style="font-size: 18px; font-weight: 600;">
+                        <p class="about__text-strong">
                             Пока мозг не получит правильный сигнал — тело не отпустит защиту. Именно с этим я работаю.
                         </p>
                     </div>
@@ -455,12 +460,12 @@
 
                     <div class="methods__content-block block-three">
                         <div class="method__block-textblock">
-                             <h1 class="method__block-title" style="margin-bottom: 20px;">ЧТО ПОЛУЧАЮТ <span>ПАЦИЕНТЫ</span></h1>
+                             <h1 class="method__block-title second-title-block">ЧТО ПОЛУЧАЮТ <span>ПАЦИЕНТЫ</span></h1>
                         </div>
                         <p class="method__block-second-paragraph">
                             Люди годами ходят по специалистам, тратят время и деньги — и не решают проблему. Здесь результат приходит быстрее.
                         </p>
-                        <ul style="max-width: 860px; margin: 0 auto 25px; text-align: left; color: #fff; font-size: 18px; line-height: 1.6; list-style: none; padding: 0 10px;">
+                        <ul class="method__results-list">
                             <li>— Часто становится заметно легче уже после первого приёма</li>
                             <li>— Возвращается уверенное, свободное движение</li>
                             <li>— Увеличивается сила и выносливость без дополнительных нагрузок</li>
@@ -604,20 +609,20 @@
                         <p class="online__content-subtitle">Основатель студии по нейромышечной коррекции</p>
                     </div>
 
-                    <div style="max-width: 980px; margin: 0 auto; color: #fff; text-align: left; line-height: 1.65; font-size: 18px;">
-                        <p style="margin-bottom: 18px;">
+                    <div class="online__text-content">
+                        <p class="online__paragraph-lead">
                             Я помогаю предпринимателям, руководителям и профессионалам восстановить ресурс тела, когда стандартные методы — массаж, ЛФК или медикаментозное лечение — перестали давать результат. Моя специализация — работа со сложными случаями боли в пояснице, шее и суставах через метод P-DTR.
                         </p>
-                        <p style="margin-bottom: 14px; font-weight: 700;">Мой подход базируется на трех столпах:</p>
-                        <p style="margin-bottom: 12px;"><strong>Нейрокоррекция.</strong> Мы не «лечим симптомы», а корректируем работу нервной системы. Боль — это лишь сигнал об ошибке в нейромышечном контроле. Устранив первопричину, мы убираем следствие.</p>
-                        <p style="margin-bottom: 12px;"><strong>Доказательность.</strong> Мой 10-летний опыт подкреплен научной деятельностью. Я являюсь автором исследования о механизмах хронической боли у атлетов и людей с гиподинамией.</p>
-                        <p style="margin-bottom: 12px;"><strong>Системность.</strong> Я не предлагаю разовых «облегчений». Моя цель — построение устойчивой модели восстановления, которая позволяет забыть о боли на годы, а не на неделю.</p>
-                        <p style="margin-bottom: 24px;">
+                        <p class="online__paragraph-bold">Мой подход базируется на трех столпах:</p>
+                        <p class="online__paragraph"><strong>Нейрокоррекция.</strong> Мы не «лечим симптомы», а корректируем работу нервной системы. Боль — это лишь сигнал об ошибке в нейромышечном контроле. Устранив первопричину, мы убираем следствие.</p>
+                        <p class="online__paragraph"><strong>Доказательность.</strong> Мой 10-летний опыт подкреплен научной деятельностью. Я являюсь автором исследования о механизмах хронической боли у атлетов и людей с гиподинамией.</p>
+                        <p class="online__paragraph"><strong>Системность.</strong> Я не предлагаю разовых «облегчений». Моя цель — построение устойчивой модели восстановления, которая позволяет забыть о боли на годы, а не на неделю.</p>
+                        <p class="online__paragraph">
                             Сегодня я развиваю Студию нейромышечной коррекции в Москве (ФОК «Торпедо»), где реализую авторские программы системного перезапуска организма длительностью 8–10 недель.
                         </p>
                     </div>
 
-                    <div style="text-align: center; margin-top: 20px;">
+                    <div class="online__button-wrap">
                         <button class="online__content-button" type="button" onclick="openModal()">
                             ЗАПИСАТЬСЯ НА ПРИЕМ
                             <span class="online__content-button-icon">

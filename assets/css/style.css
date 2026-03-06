@@ -419,7 +419,8 @@
 .about__content-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 52px;
+    line-height: 1.1;
     color: #4ABCD4;
     line-height: 0.8;
 }
@@ -469,7 +470,7 @@
     font-weight: 700;
     font-size: 60px;
     color: #ffffff;
-    line-height: 0.8;
+    line-height: 1.05;
     text-align: center;
 }
 
@@ -549,9 +550,9 @@
 }
 
 .method__block-var-title {
-    font-family: 'DaysOne', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
     color: #FF3B30;
     margin-bottom: 22px;
     text-align: center;
@@ -690,7 +691,8 @@
     font-weight: 700;
     font-size: 60px;
     color: #4ABCD4;
-    margin-bottom: 60px;
+    line-height: 1.05;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -837,8 +839,8 @@
     font-weight: 700;
     font-size: 60px;
     color: #4ABCD4;
-    line-height: 0.8;
-    margin-bottom: 55px;
+    line-height: 1.05;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -1146,8 +1148,8 @@
     font-weight: 700;
     font-size: 60px;
     color: #4ABCD4;
-    line-height: 0.8;
-    margin-bottom: 55px;
+    line-height: 1.05;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -2278,14 +2280,128 @@ html.modal-open {
 .uslugi__content-image {
     max-width: 100%;
     width: 100%;
-    max-width: 900px;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     object-fit: contain;
     border-radius: 12px;
-    margin-top: 30px;
+}
+
+/* ===== LAYOUT: uslugi footer (text left + image right) ===== */
+.uslugi__footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto 0;
+}
+
+.uslugi__footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.uslugi__footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* ===== SEO-тэги: невидимы для пользователя, читаются поисковиком ===== */
+.seo-text {
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* ===== СЕКЦИЯ "ПОЧЕМУ БОЛЬ ВОЗВРАЩАЕТСЯ" ===== */
+.about__text-content {
+    max-width: 800px;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about__text-content p {
+    margin-bottom: 20px;
+}
+
+.about__text-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.about__text-content li {
+    margin-bottom: 10px;
+}
+
+.about__text-strong {
+    font-weight: 600;
+}
+
+/* ===== СЕКЦИЯ "О СПЕЦИАЛИСТЕ" ===== */
+.online__text-content {
+    max-width: 980px;
+    margin: 0 auto 24px;
+    color: #fff;
+    text-align: left;
+    line-height: 1.65;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.online__paragraph {
+    margin-bottom: 14px;
+}
+
+.online__paragraph-lead {
+    margin-bottom: 20px;
+}
+
+.online__paragraph-bold {
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.online__button-wrap {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ===== СЕКЦИЯ "ЧТО ПОЛУЧАЮТ ПАЦИЕНТЫ" — список ===== */
+.method__results-list {
+    max-width: 860px;
+    margin: 0 auto 30px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.method__results-list li {
+    margin-bottom: 10px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .uslugi__footer {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }
 
 /* ===== UNIFIED BUTTON STYLES ===== */
