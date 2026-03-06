@@ -226,13 +226,15 @@
                     <div class="hero__content">
                         <div class="hero__text">
                             <h1 class="hero__title">
-                                Хроническая боль в спине и суставах,<br>
-                                когда массаж, ЛФК и таблетки не помогли
+                                Хроническая боль<br>в <em>спине</em> и <em>суставах</em>
                             </h1>
-                            
+                            <span class="hero__title-accent">когда массаж, ЛФК и таблетки не помогли</span>
+
+                            <div class="hero-divider"></div>
+
                             <p class="hero__description">
                                 Возвращаем силу и контроль движения<br>
-                                за 1–3 приёма — без операций, лекарств и бесконечных курсов.
+                                за <strong>1–3 приёма</strong> — без операций, лекарств и бесконечных курсов.
                             </p>
 
                             <div class="hero-correct">

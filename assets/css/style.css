@@ -210,27 +210,64 @@
 .hero__title {
     font-family: 'DelaGothicsOne', sans-serif;
     font-weight: 400;
-    font-size: 58px;
+    font-size: clamp(40px, 5.5vw, 78px);
     color: #ffffff;
-    line-height: 1.1;
+    line-height: 1.0;
     margin: 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.02em;
     white-space: normal;
+}
+
+.hero__title em {
+    color: #FF3B30;
+    font-style: normal;
+}
+
+.hero__title-accent {
+    display: block;
+    font-family: 'DelaGothicsOne', sans-serif;
+    font-size: clamp(26px, 3.2vw, 48px);
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: 0.04em;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.hero-divider {
+    width: 56px;
+    height: 3px;
+    background: linear-gradient(90deg, #2A7FBA, transparent);
+    border-radius: 2px;
+    margin: 8px 0;
+    flex-shrink: 0;
 }
 
 .hero__description {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 1.2;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.65;
     margin: 0;
-    margin-bottom: 20px;
+    max-width: 520px;
     min-width: 0;
     white-space: normal;
     word-break: break-word;
     overflow-wrap: break-word;
+}
+
+.hero__description strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.hero__location {
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.45);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .hero-correct {
