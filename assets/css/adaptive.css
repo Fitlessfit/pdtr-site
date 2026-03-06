@@ -6225,8 +6225,6 @@
 @media (max-width: 1099px) {
     .burger-menu {
         display: flex;
-        order: 10;
-        margin-left: 10px;
     }
     
     .header__content-nav {
@@ -6238,83 +6236,11 @@
     }
     
     .header__content-button-tel {
-        display: flex !important;
-        order: 9;
-        margin-right: auto;
+        display: none !important;
     }
     
     .mobile-adaptive-tel {
         display: flex !important;
-        order: 8;
-    }
-    
-    .header__content-buttons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 0 !important;
-        flex-wrap: nowrap;
-    }
-}
-
-/* Mobile devices optimization */
-@media (max-width: 768px) {
-    .header {
-        padding: 15px 15px 0 15px;
-    }
-    
-    .header__content-logo-text {
-        font-size: 22px;
-    }
-    
-    .header__content-logo-image {
-        height: 40px;
-        width: 40px;
-        border-radius: 12px;
-    }
-    
-    .landing {
-        margin: 5px;
-        height: calc(100vh - 10px);
-        padding-top: 80px;
-        border-radius: 20px;
-    }
-}
-
-/* Extra small devices */
-@media (max-width: 480px) {
-    .header {
-        padding: 12px 10px 0 10px;
-    }
-    
-    .header__content-logo-text {
-        font-size: 18px;
-    }
-    
-    .header__content-logo-image {
-        height: 36px;
-        width: 36px;
-        border-radius: 10px;
-    }
-    
-    .header__content-button-tel {
-        padding: 10px 12px !important;
-        min-height: 40px;
-    }
-    
-    .header__content-button-tel svg {
-        height: 16px;
-        width: 16px;
-    }
-    
-    .burger-menu {
-        width: 28px;
-        height: 22px;
-        margin-left: 8px;
-    }
-    
-    .burger-menu span {
-        height: 2.5px;
     }
 }
 
@@ -6349,78 +6275,28 @@
     }
 }
 
-/* ===== АДАПТИВ ДЛЯ НОВЫХ БЛОКОВ ===== */
-
-/* TRUST STATS — планшет */
-@media (max-width: 900px) {
-    .trust-stats__content {
-        gap: 0;
-    }
-    .trust-stat {
-        padding: 16px 20px;
-        min-width: 150px;
-    }
-    .trust-stat__number {
-        font-size: 36px;
-    }
-    .trust-stat__divider {
-        height: 40px;
-    }
+/* Hero image/text stability fix */
+.hero__image {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    gap: 12px !important;
 }
 
-/* TRUST STATS — мобайл */
-@media (max-width: 600px) {
-    .trust-stats {
-        padding: 30px 16px;
-        margin-bottom: 50px;
-    }
-    .trust-stats__content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0;
-    }
-    .trust-stat__divider {
-        display: none;
-    }
-    .trust-stat {
-        padding: 16px 10px;
-        min-width: unset;
-    }
-    .trust-stat__number {
-        font-size: 32px;
-    }
-    .trust-stat__label {
-        font-size: 12px;
-        max-width: unset;
-    }
+.hero__image img {
+    position: static !important;
+    right: auto !important;
+    bottom: auto !important;
 }
 
-/* ОФФЕР-БЛОК — планшет */
-@media (max-width: 900px) {
-    .offer-deposit__content {
-        grid-template-columns: 1fr;
-        gap: 30px;
+@media (max-width: 992px) {
+    .hero__image {
+        align-items: center !important;
     }
-    .offer-deposit__title {
-        font-size: 26px;
-    }
-}
 
-/* ОФФЕР-БЛОК — мобайл */
-@media (max-width: 600px) {
-    .offer-deposit {
-        margin: 0 10px 50px;
-        padding: 36px 20px;
-        border-radius: 20px;
-    }
-    .offer-deposit__title {
-        font-size: 22px;
-    }
-    .offer-deposit__deposit-amount {
-        font-size: 32px;
-    }
-    .offer-deposit__btn {
-        font-size: 14px;
-        padding: 14px 20px;
+    .hero__image-studio-text {
+        text-align: center !important;
+        max-width: 100% !important;
     }
 }

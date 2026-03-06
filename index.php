@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
     <head>
 		<meta charset="UTF-8" />
@@ -167,7 +167,7 @@
                             <a href="#about-pain" class="nav-link">О боли</a>
                             <a href="#how-it-works" class="nav-link">Как проходит прием</a>
                             <a href="#requests" class="nav-link">Запросы</a>
-                            <a href="#services" class="nav-link">Услуги</a>
+                            <a href="#services" class="nav-link">О специалисте</a>
                             <a href="#faq" class="nav-link">FAQ</a>
                             <a href="#reviews" class="nav-link">Отзывы</a>
                             <a href="#contacts" class="nav-link">Контакты</a>
@@ -214,7 +214,7 @@
                             <a href="#about-pain" class="mobile-nav-link" onclick="toggleMobileMenu()">О боли</a>
                             <a href="#how-it-works" class="mobile-nav-link" onclick="toggleMobileMenu()">Как проходит прием</a>
                             <a href="#requests" class="mobile-nav-link" onclick="toggleMobileMenu()">Запросы</a>
-                            <a href="#services" class="mobile-nav-link" onclick="toggleMobileMenu()">Услуги</a>
+                            <a href="#services" class="mobile-nav-link" onclick="toggleMobileMenu()">О специалисте</a>
                             <a href="#faq" class="mobile-nav-link" onclick="toggleMobileMenu()">FAQ</a>
                             <a href="#reviews" class="mobile-nav-link" onclick="toggleMobileMenu()">Отзывы</a>
                             <a href="#contacts" class="mobile-nav-link" onclick="toggleMobileMenu()">Контакты</a>
@@ -225,22 +225,20 @@
                 <div class="hero">
                     <div class="hero__content">
                         <div class="hero__text">
-                            <p class="hero__expert-tag">Анатолий Шемякин · специалист по нейромышечной коррекции · Москва</p>
                             <h1 class="hero__title">
-                                Нейромышечная коррекция в Москве при хронической боли в пояснице, шее и суставах
+                                Хроническая боль в спине и суставах,<br>
+                                когда массаж, ЛФК и таблетки не помогли
                             </h1>
-
+                            
                             <p class="hero__description">
-                                Восстановление силы и контроля движения за 1–3 приема<br>
-                                без операций, лекарств и длительных курсов
+                                Возвращаем силу и контроль движения<br>
+                                за 1–3 приёма — без операций, лекарств и бесконечных курсов.
                             </p>
-
-                            <p class="hero__location-note">Принимаю очно в Москве (ФОК Торпедо) и онлайн · Работаю с клиентами из всех городов</p>
 
                             <div class="hero-correct">
                                 <div class="hero-norm">
                                     <button class="hero__button" onclick="openModal()">
-                                        Проверить мой случай
+                                        ПРОВЕРИТЬ МОЙ СЛУЧАЙ
                                         <span class="hero__button-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                 <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
@@ -248,7 +246,7 @@
                                         </span>
                                     </button>  
                                 </div>
-                            
+                                <p class="hero__location">Принимаю очно в Москве (ФОК Торпедо) и онлайн · Работаю с клиентами из всех городов</p>
 
                                 <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/?ll=37.658787%2C55.715363&z=16&utm_source=share" style="color: #ffffff;">
                                     <div class="rating-card">
@@ -277,6 +275,10 @@
         
                         <div class="hero__image">
                             <img src="assets/img/foto.png?v=1.7" alt="Анатолий Шемякин">
+                            <p class="hero__image-studio-text">
+                                Студия Анатолия Шемякина<br>
+                                эксперта по нейромышечной коррекции
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -286,36 +288,106 @@
 
         <main class="main-content">
 
-            <!-- БЛОК ДОВЕРИЯ С ЦИФРАМИ -->
-            <section class="trust-stats">
-                <div class="trust-stats__content">
-                    <div class="trust-stat">
-                        <span class="trust-stat__number">10+</span>
-                        <span class="trust-stat__label">лет в нейромышечной коррекции</span>
+            <section class="uslugi" id="requests">
+                <div class="uslugi__content">
+                    <h1 class="uslugi__content-title">С чем ко мне обращаются</h1>
+                    <p style="max-width: 980px; margin: 0 auto 25px; text-align: center; font-size: 18px; line-height: 1.5;">
+                        Работаю с самыми разными запросами — от хронической боли в пояснице до восстановления после сложных операций. Вот что встречается чаще всего:
+                    </p>
+
+                    <div class="uslugi__content-blocks">
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">🔴 Боль в пояснице</h1>
+                            <p class="uslugi__block-describe">
+                                Хроническая боль в пояснице, прострелы, ограничение движений при наклонах. Когда массаж и ЛФК уже не дают результата.
+                            </p>
+                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">боль в пояснице, хроническая боль в спине, прострел в пояснице</p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">🟠 Боль в шее и плечах</h1>
+                            <p class="uslugi__block-describe">
+                                Напряжение и боль в шейном отделе, головные боли напряжения, ограничение поворота головы. Частый запрос у офисных сотрудников.
+                            </p>
+                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">боль в шее, боль в шейном отделе, напряжение в плечах, головная боль от шеи</p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">🟡 Боль в суставах</h1>
+                            <p class="uslugi__block-describe">
+                                Боль в коленях, тазобедренных, плечевых и голеностопных суставах. Ощущение нестабильности, хруст, ограничение амплитуды.
+                            </p>
+                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">боль в суставах, боль в колене, боль в тазобедренном суставе, нестабильность сустава</p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+                        
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">🟢 Восстановление после травм</h1>
+                            <p class="uslugi__block-describe">
+                                Растяжения, разрывы связок, переломы. Когда после травмы прошло время, а сила и уверенность в движении не вернулись.
+                            </p>
+                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">восстановление после травмы, реабилитация после разрыва связок, после перелома не восстанавливается движение</p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">🔵 Восстановление после операций</h1>
+                            <p class="uslugi__block-describe">
+                                После операций на позвоночнике, суставах, удаления грыжи. Помогаю вернуть контроль движений и убрать последствия вынужденной неподвижности.
+                            </p>
+                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">восстановление после операции на позвоночнике, реабилитация после операции на колене, после операции болит</p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">⚪ Подготовка спортсменов</h1>
+                            <p class="uslugi__block-describe">
+                                Предсоревновательная подготовка, устранение компенсаций и слабых звеньев. Помогаю выйти на пик формы без риска травмы.
+                            </p>
+                            <p style="font-size: 14px; color: #666; margin: 10px 0 14px;">подготовка спортсмена к соревнованиям, нейромышечная коррекция для спортсменов, убрать компенсации в движении</p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
                     </div>
-                    <div class="trust-stat__divider"></div>
-                    <div class="trust-stat">
-                        <span class="trust-stat__number">500+</span>
-                        <span class="trust-stat__label">пациентов прошли коррекцию</span>
+
+                    <p style="max-width: 980px; margin: 30px auto 15px; text-align: center; font-size: 18px; line-height: 1.5;">
+                        → Не нашли свой запрос? Напишите — разберём на диагностике.<br>
+                        Принимаю очно в Москве и онлайн из любого города.
+                    </p>
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="uslugi__block-button" onclick="openModal()" style="padding: 14px 28px; font-size: 16px;">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
                     </div>
-                    <div class="trust-stat__divider"></div>
-                    <div class="trust-stat">
-                        <span class="trust-stat__number">5.0</span>
-                        <span class="trust-stat__label">рейтинг в Яндекс.Картах</span>
-                    </div>
-                    <div class="trust-stat__divider"></div>
-                    <div class="trust-stat">
-                        <span class="trust-stat__number">1–3</span>
-                        <span class="trust-stat__label">приёма до стойкого результата</span>
-                    </div>
+
+                    <img src="assets/img/blocks/block-uslugi.png" alt="Картинка для услуг" class="uslugi__content-image">
                 </div>
             </section>
+
 
             <section class="about" id="about-pain">
                 <div class="about__content">
                     <div class="about__content-textblock">
-                        <h1 class="about__content-title">Почему боль возвращается?</h1>
-                        <p class="about__content-subtitle">снова и снова</p>
+                        <h1 class="about__content-title">ПОЧЕМУ БОЛЬ ВОЗВРАЩАЕТСЯ СНОВА И СНОВА</h1>
+                        <p class="about__content-subtitle">в чем реальная причина</p>
                     </div>
 
                     <div style="max-width: 800px; text-align: left; margin: 0 auto; line-height: 1.5; color: #333; font-family: 'Montserrat', sans-serif;">
@@ -336,38 +408,47 @@
             </section>
 
 
-
             <section class="methods" id="how-it-works">
                 <div class="methods__content">
                     <div class="methods__content-block block-one">
                         <div class="method__block-textblock">
                             <h1 class="method__block-title">КАК ПРОХОДИТ <span>ПРИЕМ</span></h1>
-                            <p class="method__block-subtitle">я не лечу боль напрямую — я восстанавливаю управление</p>
+                            <p class="method__block-subtitle">восстанавливаю правильное управление телом</p>
                         </div>
 
                         <p class="method__block-paragraph">
-                            Восстанавливаю правильное управление телом — тогда боль уходит сама. Оцениваю работу мышц, нахожу, где мозг «выключил» нужные реакции, и восстанавливаю естественное управление с помощью P-DTR.
+                            Я не лечу боль напрямую. Восстанавливаю правильное управление телом — тогда боль уходит сама.
                         </p>
                     </div>
 
                     <div class="methods__content-block block-two">
-                        <h1 class="method__block-title second-title-block">ПОДХОД К <span>ЛЕЧЕНИЮ</span></h1>
+                        <h1 class="method__block-title second-title-block">ШАГИ <span>РАБОТЫ</span></h1>
 
                         <div class="method__block-variants">
                             <article class="method__block-var">
                                 <h1 class="method__block-var-title">1 — Шаги работы</h1>
                                 <p class="method__block-var-describe">
-                                    Оцениваю работу мышц — как тело управляет движением прямо сейчас. Нахожу сбои после травм или длительной боли. Восстанавливаю естественное управление телом методом нейромышечной коррекции. Работаю до заметных изменений в тестах и ощущениях, а не по таймеру.
+                                    — Оцениваю работу мышц — как тело управляет движением прямо сейчас и реагирует на нагрузку.<br>
+                                    — Нахожу, где мозг «выключил» нужные реакции после травмы или длительной боли.<br>
+                                    — Восстанавливаю естественное управление телом с помощью подхода P-DTR — метода нейромышечной коррекции.<br>
+                                    — Работаю до заметных изменений в тестах и ощущениях, а не по таймеру. Приём заканчивается, когда есть заметный сдвиг.
                                 </p>
                             </article>
 
                             <article class="method__block-var">
                                 <h1 class="method__block-var-title">2 — Кому помогаю</h1>
                                 <p class="method__block-var-describe">
-                                    Спортсменам (подготовка, травмы), офисным сотрудникам (боль в шее, спине от сидячей работы), людям после операций (восстановление контроля). И всем, кто устал слышать «это надо просто потерпеть».
+                                    → Спортсменам: подготовка к соревнованиям, восстановление после травм<br>
+                                    → Офисным сотрудникам: боль в шее, пояснице, спине, суставах от сидячей работы<br>
+                                    → После операций: восстановление контроля и силы<br>
+                                    → Всем, кто устал слышать «это надо просто потерпеть»
                                 </p>
                             </article>
                         </div>
+
+                        <p class="method__block-var-describe" style="margin-top: 20px;">
+                            P-DTR (Proprioceptive - Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.
+                        </p>
 
                         <img src="assets/img/blocks/block-about.png" alt="Анатолий Шемякин проводит прием" class="method__block-image">
                     </div>
@@ -379,12 +460,12 @@
                         <p class="method__block-second-paragraph">
                             Люди годами ходят по специалистам, тратят время и деньги — и не решают проблему. Здесь результат приходит быстрее.
                         </p>
-                        <ul class="method__results-list">
-                            <li>Часто становится заметно легче уже после первого приёма</li>
-                            <li>Возвращается уверенное, свободное движение</li>
-                            <li>Увеличивается сила и выносливость без дополнительных нагрузок</li>
-                            <li>Исчезает «защита тела» — спазмы, скованность, блоки</li>
-                            <li>Восстанавливается контроль движений — при спорте, тренировках, в обычной жизни</li>
+                        <ul style="max-width: 860px; margin: 0 auto 25px; text-align: left; color: #fff; font-size: 18px; line-height: 1.6; list-style: none; padding: 0 10px;">
+                            <li>— Часто становится заметно легче уже после первого приёма</li>
+                            <li>— Возвращается уверенное, свободное движение</li>
+                            <li>— Увеличивается сила и выносливость без дополнительных нагрузок</li>
+                            <li>— Исчезает «защита тела» — спазмы, скованность, блоки</li>
+                            <li>— Восстанавливается контроль движений — при занятиях спортом, на тренировках, в обычной жизни</li>
                         </ul>
 
                         <div class="method__block-buttons">
@@ -406,434 +487,129 @@
             </section>
 
 
-            
-            <section class="achievement" id="dostijeniya">
-                <div class="achievement__content">
-                    <h1 class="achievement__content-title">Результаты</h1>
-                    
-                    <div class="achievement__content-images-block">
-                        <div class="image-container">
-                            <h2 class="achievement__content-img-title">ДО</h2>
-                            <div class="image-placeholder" id="before-image">
-                                <!-- Изображение будет загружено через JavaScript -->
-                            </div>
-                        </div>
-                        
-                        <div class="image-container">
-                            <h2 class="achievement__content-img-title">ПОСЛЕ</h2>
-                            <div class="image-placeholder" id="after-image">
-                                <!-- Изображение будет загружено через JavaScript -->
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="slider-controls">
-                        <button class="slider-btn prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
-                            </svg>
-                        </button>
-                        
-                        <div class="slider-indicators" id="indicators">
-                            <!-- Индикаторы будут созданы через JavaScript -->
-                        </div>
-                        
-                        <button class="slider-btn next">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
-                            </svg>
-                        </button>
-                    </div>
-                    
-                    <div class="error-message" id="error-message">
-                        Ошибка загрузки изображений. Пожалуйста, проверьте подключение к интернету.
-                    </div>
-                </div>
-            </section>
-
-
-
             <section class="reviews" id="reviews">
                 <div class="reviews__content">
-                    <h1 class="reviews__content-title">Отзывы</h1>
+                    <h1 class="reviews__content-title">ЧТО ГОВОРЯТ ПАЦИЕНТЫ ПОСЛЕ ПРИЕМА</h1>
                     
                     <div class="reviews__content-blocks">
                         <article class="review__block">
                             <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/reviews/">
                                 <div class="review__block-nick">
                                     <div style="width:42px; height:42px; background:#ddd; border-radius:12px; display:flex; align-items:center; justify-content:center; font-weight:bold;">А</div>
-                                    <h2 class="review__block-nick-text">Алексей, 35 лет</h2>
+                                    <h2 class="review__block-nick-text">Алексей Морозов</h2>
                                 </div>
 
                                 <p class="review__block-text">
-                                    «Полтора года не мог тренироваться после травмы колена. Три приёма — и я снова в зале.» — восстановление после травмы.
+                                    После травмы колена долго не мог вернуться к тренировкам. Отмечает, что после нескольких приемов снова тренируется без ограничений.
                                 </p>
                             </a>
                         </article>
 
                         <article class="review__block">
-                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=ufv1vgzcqbcwrda550avb3b6dm&utm_source=review">
+                            <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/reviews/">
                                 <div class="review__block-nick">
                                     <img src="assets/img/avatars/olga-kovaykina.png" alt="Ольга Ковайкина" class="review__block-nick-img">
                                     <h2 class="review__block-nick-text">Ольга Ковайкина</h2>
                                 </div>
 
                                 <p class="review__block-text">
-                                    Была у Анатолия с жалобой на боли в области крестца и поясницы. 2 часа работы, все комфортно для меня, после приема усталость) это перезагрузка нервной системы, как сказал Анатолий. По итогу уже на следующий день боли нет, в теле «удобнее». Прошло уже почти 2 месяца, боль не вернулась.
+                                    Пишет о боли в крестце и пояснице. По отзыву, уже на следующий день стало легче, а через время боль не возвращалась.
                                 </p>
                             </a>
                         </article>
 
                         <article class="review__block">
-                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=bf33d0z7aq4e36pp2pj8gaqwng&utm_source=review">
+                            <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/reviews/">
                                 <div class="review__block-nick">
                                     <img src="assets/img/avatars/tanya-y.png" alt="tanya y." class="review__block-nick-img">
                                     <h2 class="review__block-nick-text">tanya y.</h2>
                                 </div>
 
                                 <p class="review__block-text">
-                                    Толя - супер специалист. Настолько тщательно и скрупулезно проработал мне больное плечо и остальные зоны, что чувствую себя новым человеком. Плечо стало нормально работать, ушли боли в спине, прошел хронический цистит. Советую всем, кто мучается с болями.
+                                    Отмечает улучшение по плечу и спине после приема. В отзыве подчеркивает тщательный подход и заметные изменения в самочувствии.
+                                </p>
+                            </a>
+                        </article>
+
+                        <article class="review__block">
+                            <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/reviews/">
+                                <div class="review__block-nick">
+                                    <div style="width:42px; height:42px; background:#ddd; border-radius:12px; display:flex; align-items:center; justify-content:center; font-weight:bold;">D</div>
+                                    <h2 class="review__block-nick-text">Danielle S</h2>
+                                </div>
+
+                                <p class="review__block-text">
+                                    В отзыве описывает давнюю травму колена и сложный период восстановления. После работы отмечает снижение боли и более уверенное движение.
+                                </p>
+                            </a>
+                        </article>
+
+                        <article class="review__block">
+                            <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/reviews/">
+                                <div class="review__block-nick">
+                                    <div style="width:42px; height:42px; background:#ddd; border-radius:12px; display:flex; align-items:center; justify-content:center; font-weight:bold;">Н</div>
+                                    <h2 class="review__block-nick-text">Натали Хай</h2>
+                                </div>
+
+                                <p class="review__block-text">
+                                    Делится опытом обращения с болями в шее на фоне сидячей работы. Пишет про заметное облегчение и улучшение подвижности.
+                                </p>
+                            </a>
+                        </article>
+
+                        <article class="review__block">
+                            <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/reviews/">
+                                <div class="review__block-nick">
+                                    <div style="width:42px; height:42px; background:#ddd; border-radius:12px; display:flex; align-items:center; justify-content:center; font-weight:bold;">И</div>
+                                    <h2 class="review__block-nick-text">Илья Любезнов</h2>
+                                </div>
+
+                                <p class="review__block-text">
+                                    В отзыве отмечает, что прием помог лучше чувствовать тело и двигаться свободнее. Подчеркивает внимательный разбор причины проблемы.
                                 </p>
                             </a>
                         </article>
                     </div>
 
-                    <a href="https://yandex.ru/maps/org/32313144654?si=2kn67yb43zczgnq09f4vkhbx4r" class="reviews__content-more-button">
-                        Больше отзывов
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-                            <path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z"/>
-                        </svg>
-                    </a>
+                    <button type="button" class="reviews__content-more-button" onclick="openModal()" style="margin-left: 12px;">
+                        ЗАПИСАТЬСЯ НА ПРИЕМ
+                    </button>
                 </div>
             </section>
 
-
-
-            <section class="uslugi" id="requests">
-                <div class="uslugi__content">
-                    <h1 class="uslugi__content-title">С чем ко мне обращаются</h1>
-
-                    <div class="uslugi__content-blocks">
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Боль в пояснице</h1>
-                            <p class="uslugi__block-describe">
-                                Хроническая боль в пояснице, прострелы, ограничение движений при наклонах. Когда массаж и ЛФК уже не дают результата.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Боль в шее и плечах</h1>
-                            <p class="uslugi__block-describe">
-                                Напряжение и боль в шейном отделе, головные боли напряжения, ограничение поворота головы. Частый запрос у офисных сотрудников.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Боль в суставах</h1>
-                            <p class="uslugi__block-describe">
-                                Боль в коленях, тазобедренных, плечевых и голеностопных суставах. Ощущение нестабильности, хруст, ограничение амплитуды.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-                            </div>
-                        </article>
-                        
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Восстановление после травм</h1>
-                            <p class="uslugi__block-describe">
-                                Растяжения, разрывы связок, переломы. Когда после травмы прошло время, а сила и уверенность в движении не вернулись.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Восстановление после операций</h1>
-                            <p class="uslugi__block-describe">
-                                После операций на позвоночнике, суставах, удаления грыжи. Помогаю вернуть контроль движений и убрать последствия вынужденной неподвижности.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Подготовка спортсменов</h1>
-                            <p class="uslugi__block-describe">
-                                Предсоревновательная подготовка, устранение компенсаций и слабых звеньев. Помогаю выйти на пик формы без риска травмы.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-                            </div>
-                        </article>
-                    </div>
-
-                    <img src="assets/img/blocks/block-uslugi.png" alt="Картинка для услуг" class="uslugi__content-image">
-                </div>
-            </section>
-
-            
-
-            <!-- ОФФЕР-БЛОК С ДЕПОЗИТОМ -->
-            <section class="offer-deposit">
-                <div class="offer-deposit__content">
-                    <div class="offer-deposit__text">
-                        <span class="offer-deposit__badge">Первый шаг</span>
-                        <h2 class="offer-deposit__title">Первичный приём: диагностика + коррекция</h2>
-                        <p class="offer-deposit__desc">
-                            За один приём — полная оценка работы нервной системы и первая коррекция.
-                            Результат ощущается уже на сеансе.
-                        </p>
-                        <ul class="offer-deposit__list">
-                            <li>Мышечное тестирование и выявление причин боли</li>
-                            <li>Коррекция нейромышечного управления</li>
-                            <li>Индивидуальный план дальнейшей работы</li>
-                        </ul>
-                    </div>
-                    <div class="offer-deposit__cta">
-                        <div class="offer-deposit__deposit-card">
-                            <p class="offer-deposit__deposit-label">Депозит для записи</p>
-                            <p class="offer-deposit__deposit-amount">уточняется</p>
-                            <p class="offer-deposit__deposit-note">Входит в стоимость первого приёма</p>
-                            <button class="offer-deposit__btn" onclick="openModal()">
-                                Записаться на первый приём
-                                <span class="offer-deposit__btn-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
-                                    </svg>
-                                </span>
-                            </button>
-                            <p class="offer-deposit__disclaimer">Приём длится столько, сколько нужно&nbsp;— 40–90 мин</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section class="online" id="services">
                 <div class="online__content">
                     <div class="online__content-textblock">
-                        <h1 class="online__content-title">Услуги и стоимость</h1>
-                        <p class="online__content-subtitle">прием и программы восстановления</p>
+                        <h1 class="online__content-title">Анатолий Шемякин</h1>
+                        <p class="online__content-subtitle">Основатель студии по нейромышечной коррекции</p>
                     </div>
 
-                    <!-- ДИАГНОСТИКА -->
-                    <div class="services-block">
-                        <div class="service-category">
-                            <button class="service-category-title" onclick="toggleService(this)">
-                                <span>🔍 ДИАГНОСТИКА</span>
-                                <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                                    <path d="M7,10l5,5,5-5Z"/>
-                                </svg>
-                            </button>
-                            <div class="service-items" style="display: none;">
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Комплексная функциональная диагностика</h3>
-                                        <span class="service-price">6 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Полная оценка работы нервной системы и тела: консультация, мышечное тестирование, выявление причин, индивидуальный план коррекции</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Диагностика сенсорного управления</h3>
-                                        <span class="service-price">6 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Проверка того, как мозг управляет движением и телом</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Диагностика вегетативной регуляции</h3>
-                                        <span class="service-price">8 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Анализ реакций на стресс и эмоциональные перегрузки (тревожность, панические реакции, фобии)</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Диагностика висцеральной регуляции</h3>
-                                        <span class="service-price">8 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Оценка работы внутренних органов и реакций на продукты</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Диагностика обмена веществ</h3>
-                                        <span class="service-price">12 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Анализ метаболической эффективности и энергетического ресурса</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Диагностика ВНЧС</h3>
-                                        <span class="service-price">10 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Бруксизм, прикус, функции языка и артикуляции, сопровождение ортодонтического лечения</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- КОРРЕКЦИЯ -->
-                    <div class="services-block">
-                        <div class="service-category">
-                            <button class="service-category-title" onclick="toggleService(this)">
-                                <span>⚙️ КОРРЕКЦИЯ</span>
-                                <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                                    <path d="M7,10l5,5,5-5Z"/>
-                                </svg>
-                            </button>
-                            <div class="service-items" style="display: none;">
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Персональная коррекция (по плану)</h3>
-                                        <span class="service-price">от 8 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Восстановление работы нервной системы и включение мышц (проводится после диагностики)</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Разовый корректирующий сеанс</h3>
-                                        <span class="service-price">от 8 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Точечная работа по ранее выявленному запросу</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Функциональный контроль</h3>
-                                        <span class="service-price">от 8 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Тестирование + коррекция в одном визите (оценка динамики и донастройка)</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Программа функционального восстановления</h3>
-                                        <span class="service-price">от 10 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Блок сеансов — поэтапная перезагрузка нервной системы и устранение компенсаций</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ЧЕЛЮСТЬ И ОСАНКА -->
-                    <div class="services-block">
-                        <div class="service-category">
-                            <button class="service-category-title" onclick="toggleService(this)">
-                                <span>👤 ЧЕЛЮСТЬ И ОСАНКА</span>
-                                <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                                    <path d="M7,10l5,5,5-5Z"/>
-                                </svg>
-                            </button>
-                            <div class="service-items" style="display: none;">
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Коррекция челюстно-лицевого баланса</h3>
-                                        <span class="service-price">от 10 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Работа с бруксизмом, прикусом, функцией языка и сопровождение ортодонтического лечения</p>
-                                </div>
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Программа восстановления осанки (3 этапа)</h3>
-                                        <span class="service-price">24 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Ноги и опора → Таз и позвоночник → Челюсть и голова. Комплексный формат из трех встреч</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ДВИЖЕНИЕ И ТРЕНИРОВКИ -->
-                    <div class="services-block">
-                        <div class="service-category">
-                            <button class="service-category-title" onclick="toggleService(this)">
-                                <span>🏃 ДВИЖЕНИЕ И ТРЕНИРОВКИ</span>
-                                <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                                    <path d="M7,10l5,5,5-5Z"/>
-                                </svg>
-                            </button>
-                            <div class="service-items" style="display: none;">
-                                <div class="service-item">
-                                    <div class="service-header">
-                                        <h3>Персональный тренировочный план</h3>
-                                        <span class="service-price">от 6 000 ₽</span>
-                                    </div>
-                                    <p class="service-description">Индивидуальная программа с учётом состояния нервной системы и мышечного контроля</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ФОРМАТЫ И ПАКЕТЫ -->
-                    <div class="pricing-section">
-                        <h2 class="pricing-section-title">Форматы приема</h2>
-                        <div class="pricing-cards">
-                            <div class="pricing-card">
-                                <h3>Первичный прием</h3>
-                                <p class="pricing-card-desc">Диагностика + коррекция</p>
-                                <button class="pricing-card-btn" onclick="openModal()">Записаться</button>
-                            </div>
-                            <div class="pricing-card">
-                                <h3>Повторный прием</h3>
-                                <p class="pricing-card-desc">Продолжение курса</p>
-                                <button class="pricing-card-btn" onclick="openModal()">Записаться</button>
-                            </div>
-                            <div class="pricing-card pricing-card-highlight">
-                                <h3>Пакет 3 приема</h3>
-                                <p class="pricing-card-price">Выгоднее на 10%</p>
-                                <p class="pricing-card-desc">Лучший результат</p>
-                                <button class="pricing-card-btn pricing-card-btn-highlight" onclick="openModal()">Записаться</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ПОДПИСКА -->
-                    <div class="subscription-section">
-                        <h2 class="subscription-title">Подписка «Сопровождение»</h2>
-                        <div class="subscription-card">
-                            <div class="subscription-header">
-                                <h3>8 000 ₽ / месяц</h3>
-                                <span class="subscription-badge">Лучший выбор</span>
-                            </div>
-                            <ul class="subscription-features">
-                                <li>✓ Диагностика включена в подписку</li>
-                                <li>✓ Неограниченное количество консультаций в месяц</li>
-                                <li>✓ Коррекция по показаниям (отдельная оплата)</li>
-                                <li>✓ Поддержка на весь период восстановления</li>
-                            </ul>
-                            <button class="subscription-btn" onclick="openModal()">Подробнее и записаться</button>
-                        </div>
-                    </div>
-
-                    <div style="text-align: center; margin-top: 40px;">
-                        <p style="font-size: 16px; color: rgba(255, 255, 255, 0.95); margin-bottom: 20px;">
-                            Уточните точную стоимость при записи — она зависит от сложности и формата приема
+                    <div style="max-width: 980px; margin: 0 auto; color: #fff; text-align: left; line-height: 1.65; font-size: 18px;">
+                        <p style="margin-bottom: 18px;">
+                            Я помогаю предпринимателям, руководителям и профессионалам восстановить ресурс тела, когда стандартные методы — массаж, ЛФК или медикаментозное лечение — перестали давать результат. Моя специализация — работа со сложными случаями боли в пояснице, шее и суставах через метод P-DTR.
                         </p>
+                        <p style="margin-bottom: 14px; font-weight: 700;">Мой подход базируется на трех столпах:</p>
+                        <p style="margin-bottom: 12px;"><strong>Нейрокоррекция.</strong> Мы не «лечим симптомы», а корректируем работу нервной системы. Боль — это лишь сигнал об ошибке в нейромышечном контроле. Устранив первопричину, мы убираем следствие.</p>
+                        <p style="margin-bottom: 12px;"><strong>Доказательность.</strong> Мой 10-летний опыт подкреплен научной деятельностью. Я являюсь автором исследования о механизмах хронической боли у атлетов и людей с гиподинамией.</p>
+                        <p style="margin-bottom: 12px;"><strong>Системность.</strong> Я не предлагаю разовых «облегчений». Моя цель — построение устойчивой модели восстановления, которая позволяет забыть о боли на годы, а не на неделю.</p>
+                        <p style="margin-bottom: 24px;">
+                            Сегодня я развиваю Студию нейромышечной коррекции в Москве (ФОК «Торпедо»), где реализую авторские программы системного перезапуска организма длительностью 8–10 недель.
+                        </p>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 20px;">
                         <button class="online__content-button" type="button" onclick="openModal()">
-                            Записаться на прием
+                            ЗАПИСАТЬСЯ НА ПРИЕМ
                             <span class="online__content-button-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
                                 </svg>
                             </span>
-                        </button>  
+                        </button>
                     </div>
                 </div>
             </section>
-            
 
 
             <section class="faq" id="faq">
@@ -930,6 +706,18 @@
 
                         <div class="faq__item">
                             <button class="faq__item-title" onclick="toggleFaq(this)">
+                                <span>Сколько стоит приём и сколько времени он длится?</span>
+                                <svg class="faq__toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M7,10l5,5,5-5Z"/>
+                                </svg>
+                            </button>
+                            <div class="faq__item-content" style="display: none;">
+                                <p>Приём длится столько, сколько нужно для результата — обычно 40–90 минут. Я не работаю по таймеру. Стоимость уточняйте при записи: она зависит от формата (очно/ онлайн) и сложности запроса.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <button class="faq__item-title" onclick="toggleFaq(this)">
                                 <span>Подходит ли это детям и пожилым людям?</span>
                                 <svg class="faq__toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M7,10l5,5,5-5Z"/>
@@ -954,6 +742,7 @@
                     </div>
                 </div>
             </section>
+
 
             <section class="contacts" id="contacts">
                 <div class="contacts__content">
@@ -1023,9 +812,15 @@
                             </div>
 
                             <p style="margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 1.5; color: #333;">
-                                <strong>Очный приём:</strong> Москва, ФОК Торпедо<br>
-                                м. Автозаводская, Восточная 4а стр. 4<br><br>
-                                <strong>Онлайн-консультация:</strong> принимаю клиентов из всех городов
+                                <strong>КОНТАКТЫ И ФОРМАТ</strong><br>
+                                📍 <strong>Очный приём:</strong> г. Москва, ЮАО, м. Автозаводская, ФОК «Торпедо»<br>
+                                💻 <strong>Онлайн-консультация:</strong> принимаю клиентов из всех городов<br>
+                                🎓 <strong>Мастер-классы:</strong> провожу в спортивных центрах по запросу<br><br>
+                                Адрес: Москва, м. Автозаводская, Восточная 4а стр. 4
+                            </p>
+                            <p style="margin-bottom: 20px;">
+                                <a target="_blank" href="tel:+79167714777" style="color:#222; text-decoration: underline;">Телефон: +7 916 77 14 777</a><br>
+                                <a href="#!" onclick="openModal(); return false;" style="color:#222; text-decoration: underline;">Ссылка на запись</a>
                             </p>
 
                             <button class="contact__content-left-button" type="button" onclick="openModal()">
@@ -1044,7 +839,6 @@
                     </div>
                 </div>
             </section>
-
 
 
             <section class="sertifications" id="sertifikati">
@@ -1075,7 +869,9 @@
                         </button>
                     </div>
                 </div>
-            </section>                  
+            </section>
+
+
         </main>
 
         <!-- FOOTER -->
@@ -1337,3 +1133,6 @@
         <script src="assets/js/modal.js?v=1.29"></script>
     </body>
 </html>
+
+
+

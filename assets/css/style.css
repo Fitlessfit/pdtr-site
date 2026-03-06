@@ -16,7 +16,6 @@
     padding-top: 100px;
 }
 
-
 /* HEADER */
 .header {
     display: flex;
@@ -90,7 +89,6 @@
     flex-direction: row;
     align-items: center;
     gap: 7px;
-    flex-wrap: nowrap;
 }
 
 .header__content-button {
@@ -111,7 +109,6 @@
     line-height: 1;
     min-height: 50px;
     border: 2px solid transparent;
-    flex-shrink: 0;
 }
 
 .mobile-adaptive-tel {
@@ -210,39 +207,22 @@
     min-width: 0;
 }
 
-.hero__expert-tag {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.75);
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin: 0;
-}
-
 .hero__title {
     font-family: 'DelaGothicsOne', sans-serif;
     font-weight: 400;
-    font-size: 46px;
+    font-size: 58px;
     color: #ffffff;
-    line-height: 1.15;
+    line-height: 1.1;
     margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     white-space: normal;
-}
-
-.hero__location-note {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.65);
-    margin: 0;
-    line-height: 1.4;
 }
 
 .hero__description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     line-height: 1.2;
     margin: 0;
@@ -370,76 +350,49 @@
 
 .hero__image {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    gap: 12px;
     height: 100%;
+    padding-bottom: 70px;
     position: relative;
 }
 
 .hero__image img {
-    height: 540px;
-    max-height: 90%;
+    height: 520px;
+    max-height: 85%;
     width: auto;
     object-fit: contain;
-    position: absolute;
-    bottom: -15px;
-    right: 0;
     user-select: none;
     pointer-events: none;
 }
 
-
-
-/* TRUST STATS BLOCK */
-.trust-stats {
-    background: #f8f9fa;
-    padding: 40px 20px;
-    margin-bottom: 80px;
-}
-
-.trust-stats__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
-    max-width: 1100px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-
-.trust-stat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px 40px;
-    flex: 1;
-    min-width: 200px;
-}
-
-.trust-stat__number {
-    font-family: 'DelaGothicsOne', sans-serif;
-    font-size: 48px;
-    color: #01487a;
-    line-height: 1;
-    margin-bottom: 8px;
-}
-
-.trust-stat__label {
+.hero__image-studio-text {
+    margin: 0;
+    max-width: 360px;
+    text-align: right;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: #555;
-    line-height: 1.4;
-    max-width: 160px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #ffffff;
+    z-index: 2;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
-.trust-stat__divider {
-    width: 1px;
-    height: 60px;
-    background: #ddd;
-    flex-shrink: 0;
+@media (max-width: 992px) {
+    .hero__image-studio-text {
+        margin-top: 12px;
+        text-align: center;
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 1.35;
+        text-shadow: none;
+    }
 }
+
+
 
 /* ABOUT BLOCK */
 .about {
@@ -603,33 +556,6 @@
 }
 
 
-
-.method__results-list {
-    list-style: none;
-    margin: 0 0 30px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.method__results-list li {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    color: rgba(255,255,255,0.9);
-    padding-left: 24px;
-    position: relative;
-    line-height: 1.4;
-}
-
-.method__results-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #4CC4DD;
-    font-weight: 700;
-}
 
 .method__block-buttons {
     display: flex;
@@ -1116,161 +1042,6 @@
 }
 
 
-
-/* ОФФЕР-БЛОК С ДЕПОЗИТОМ */
-.offer-deposit {
-    margin: 0 10px 80px;
-    background: linear-gradient(135deg, #011433 0%, #01487a 100%);
-    border-radius: 30px;
-    padding: 60px 40px;
-}
-
-.offer-deposit__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.offer-deposit__badge {
-    display: inline-block;
-    background: rgba(255,255,255,0.15);
-    color: rgba(255,255,255,0.9);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding: 6px 14px;
-    border-radius: 20px;
-    margin-bottom: 16px;
-}
-
-.offer-deposit__title {
-    font-family: 'DelaGothicsOne', sans-serif;
-    font-size: 32px;
-    color: #ffffff;
-    line-height: 1.2;
-    margin: 0 0 16px;
-}
-
-.offer-deposit__desc {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.6;
-    margin: 0 0 24px;
-}
-
-.offer-deposit__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.offer-deposit__list li {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    color: rgba(255,255,255,0.85);
-    padding-left: 20px;
-    position: relative;
-    line-height: 1.4;
-}
-
-.offer-deposit__list li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: #4CC4DD;
-    font-weight: 700;
-}
-
-.offer-deposit__deposit-card {
-    background: #ffffff;
-    border-radius: 20px;
-    padding: 36px 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-}
-
-.offer-deposit__deposit-label {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    color: #888;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0;
-}
-
-.offer-deposit__deposit-amount {
-    font-family: 'DelaGothicsOne', sans-serif;
-    font-size: 42px;
-    color: #01487a;
-    margin: 4px 0;
-}
-
-.offer-deposit__deposit-note {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    color: #888;
-    margin: 0 0 16px;
-}
-
-.offer-deposit__btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 16px 28px;
-    border-radius: 12px;
-    background: linear-gradient(135deg, #01487a 0%, #015a9c 100%);
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border: none;
-    width: 100%;
-}
-
-.offer-deposit__btn:hover {
-    box-shadow: 0 8px 24px rgba(1, 72, 122, 0.35);
-    transform: translateY(-2px);
-}
-
-.offer-deposit__btn-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255,255,255,0.2);
-    border-radius: 50%;
-    width: 28px;
-    height: 28px;
-    flex-shrink: 0;
-}
-
-.offer-deposit__btn-icon svg {
-    width: 16px;
-    height: 16px;
-    fill: white;
-}
-
-.offer-deposit__disclaimer {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    color: #aaa;
-    margin: 4px 0 0;
-}
 
 /* Онлайн сопровождение */
 .online {
@@ -2521,8 +2292,7 @@ html.modal-open {
     border: none;
     cursor: pointer;
     padding: 0;
-    z-index: 1010;
-    flex-shrink: 0;
+    z-index: 1001;
 }
 
 .burger-menu span {
