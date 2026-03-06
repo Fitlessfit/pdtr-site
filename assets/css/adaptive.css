@@ -6300,3 +6300,54 @@
         max-width: 100% !important;
     }
 }
+
+/* Hero desktop/tablet recovery (fix broken mixed breakpoint rules) */
+@media (min-width: 900px) {
+    .hero__content {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 60px !important;
+    }
+
+    .hero-correct {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        margin-top: 0 !important;
+        padding: 0 !important;
+        gap: 15px !important;
+    }
+
+    .rating-card {
+        width: 275px !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+        border-radius: 18px !important;
+    }
+
+    .rating-card__text {
+        margin-right: 0 !important;
+        font-size: 17px !important;
+    }
+
+    .rating-card__side {
+        right: -30px !important;
+        font-size: 19px !important;
+    }
+
+    .hero__image {
+        display: flex !important;
+        align-items: flex-end !important;
+    }
+
+    .hero__image img {
+        height: 520px !important;
+        max-height: 85% !important;
+        width: auto !important;
+    }
+
+    .hero__image-studio-text {
+        text-align: right !important;
+        max-width: 360px !important;
+        font-size: 18px !important;
+    }
+}

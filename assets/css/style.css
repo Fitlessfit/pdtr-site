@@ -185,7 +185,7 @@
     align-items: center;
     height: calc(100vh - 140px);
     min-height: 600px;
-    padding: 0px 0px 20px 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .hero__content {
@@ -302,7 +302,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 275px;
-    overflow: hidden;
+    overflow: visible;
     user-select: none;
 }
 
@@ -829,8 +829,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 25px;
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid #e0e0e0;
     gap: 14px;
+    text-decoration: none;
+    transition: border-color 0.4s;
 }
 
 .review__block-nick-img {
@@ -876,6 +880,173 @@
 }
 
 /* КОНЭЦ ЭТИХ СТИЛЕЙ */
+
+/* Тег-проблема в карточке отзыва */
+.review__block-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #2A7FBA;
+    margin-bottom: 12px;
+    transition: color 0.4s;
+}
+
+.review__block:hover .review__block-tag {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Кнопка "Читать полностью" */
+.review__block-read-more {
+    background: none;
+    border: none;
+    color: #2A7FBA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px;
+    transition: color 0.4s;
+    letter-spacing: 0.5px;
+}
+
+.review__block-read-more::after {
+    content: '→';
+}
+
+.review__block-read-more.open::after {
+    content: '←';
+}
+
+.review__block:hover .review__block-read-more {
+    color: #ffffff;
+}
+
+/* Полный текст отзыва */
+.review__block-full-text {
+    display: none;
+    font-family: 'MontserratAlternates', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 16px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 14px;
+    transition: color 0.4s, border-color 0.4s;
+}
+
+.review__block-full-text.open {
+    display: block;
+}
+
+.review__block:hover .review__block-full-text {
+    color: rgba(255, 255, 255, 0.85);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Hover на nick (футер карточки) */
+.review__block:hover .review__block-nick {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Аватар-буква */
+.review__block-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #dde8f2;
+    color: #01487a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    flex-shrink: 0;
+    transition: background 0.4s, color 0.4s;
+}
+
+.review__block:hover .review__block-avatar {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Дата/пометка под именем */
+.review__block-meta {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #999;
+    margin-top: 2px;
+    transition: color 0.4s;
+}
+
+.review__block:hover .review__block-meta {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Звёздочки */
+.review__block-stars {
+    margin-left: auto;
+    color: #2A7FBA;
+    font-size: 15px;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+    transition: color 0.4s;
+}
+
+.review__block:hover .review__block-stars {
+    color: #ffffff;
+}
+
+/* Hover на strong внутри текста */
+.review__block:hover .review__block-text strong {
+    color: #ffffff;
+}
+
+/* Кнопки внизу секции отзывов */
+.reviews__content-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reviews__content-yandex-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 24px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #01487a 0%, #015a9c 100%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-height: 50px;
+    text-decoration: none;
+    border: none;
+    letter-spacing: 0.5px;
+}
+
+.reviews__content-yandex-button:hover {
+    background: linear-gradient(135deg, #015a9c 0%, #0169b5 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(1, 72, 122, 0.3);
+}
+
+.reviews__content-yandex-button:active {
+    transform: translateY(0);
+}
 
 
 
