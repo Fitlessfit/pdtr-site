@@ -274,11 +274,11 @@
                         </div>
         
                         <div class="hero__image">
-                            <img src="assets/img/foto.png?v=1.7" alt="Анатолий Шемякин">
                             <p class="hero__image-studio-text">
                                 Студия Анатолия Шемякина<br>
                                 эксперта по нейромышечной коррекции
                             </p>
+                            <img src="assets/img/foto.png?v=1.7" alt="Анатолий Шемякин">
                         </div>
                     </div>
                 </div>
@@ -427,8 +427,6 @@
                     </div>
 
                     <div class="methods__content-block block-two">
-                        <h1 class="method__block-title second-title-block">ШАГИ <span>РАБОТЫ</span></h1>
-
                         <div class="method__block-two-layout">
                             <div class="method__block-two-text">
                                 <p class="method__block-section-label">■ Шаги работы</p>
